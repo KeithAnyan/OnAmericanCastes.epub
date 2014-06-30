@@ -2,6 +2,11 @@
 
 A collection of essays by [Mencius Moldbug](http://unqualified-reservations.blogspot.com/)
 
+Download:
+[epub](http://keithanyan.github.io/OnAmericanCastes.epub/OnAmericanCastes.epub)
+[mobi](http://keithanyan.github.io/OnAmericanCastes.epub/OnAmericanCastes.mobi)
+[pdf](http://keithanyan.github.io/OnAmericanCastes.epub/OnAmericanCastes.pdf)
+
 Original Articles:
 * [Castes of the United States](http://unqualified-reservations.blogspot.com/2007/05/castes-of-united-states.html)
 * [The BDH-OV conflict](http://unqualified-reservations.blogspot.com/2007/05/bdh-ov-conflict_07.html)
