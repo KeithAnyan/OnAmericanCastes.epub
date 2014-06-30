@@ -1,0 +1,901 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Unqualified Reservations: The BDH-OV conflict</title>
+
+  <script type="text/javascript">(function() { var b=window,f="chrome",g="tick",k="jstiming";(function(){function d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void 0==c)try{b.console.timeStamp("CSI/"+a)}catch(h){}};this[g]("start",null,a)}var a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[k].srt=h-c)}if(a){var e=b[k].load;0<c&&h>=c&&(e[g]("_wtsrt",void 0,c),e[g]("wtsrt_","_wtsrt",h),e[g]("tbsd_","wtsrt_"))}try{a=null,
+b[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[g]("_tbnd",void 0,b[f].csi().startE),e[g]("tbnd_","_tbnd",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[g]("_tbnd",void 0,b.external.startE),e[g]("tbnd_","_tbnd",c))),a&&(b[k].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[k].load[g]("aft")};var l=!1;function m(){l||(l=!0,b[k].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",m,!1):b.attachEvent("onscroll",m);
+ })();</script><script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="Blogger" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.blogger.com/favicon.ico"/>
+<link rel="alternate" type="application/atom+xml" title="Unqualified Reservations - Atom" href="http://unqualified-reservations.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Unqualified Reservations - RSS" href="http://unqualified-reservations.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Unqualified Reservations - Atom" href="http://www.blogger.com/feeds/7958140996781104565/posts/default" />
+<link rel="alternate" type="application/atom+xml" title="Unqualified Reservations - Atom" href="http://unqualified-reservations.blogspot.com/feeds/4535996064386591118/comments/default" />
+<link rel="stylesheet" type="text/css" href="https://www.blogger.com/static/v1/v-css/50269083-blog_controls.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7958140996781104565&zx=f31526a4-3753-4209-a8f9-16623a5e17e8"/>
+
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     26 Feb 2004
+----------------------------------------------- */
+
+
+body {
+  background:#fff;
+  margin:0;
+  padding:40px 20px;
+  font:x-small Georgia,Serif;
+  text-align:center;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+a:link {
+  color:#58a;
+  text-decoration:none;
+  }
+a:visited {
+  color:#969;
+  text-decoration:none;
+  }
+a:hover {
+  color:#c60;
+  text-decoration:underline;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Header
+----------------------------------------------- */
+@media all {
+  #header {
+    width:660px;
+    margin:0 auto 10px;
+    border:1px solid #ccc;
+    }
+  }
+@media handheld {
+  #header {
+    width:90%;
+    }
+  }
+#blog-title {
+  margin:5px 5px 0;
+  padding:20px 20px .25em;
+  border:1px solid #eee;
+  border-width:1px 1px 0;
+  font-size:200%;
+  line-height:1.2em;
+  font-weight:normal;
+  color:#666;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  }
+#blog-title a {
+  color:#666;
+  text-decoration:none;
+  }
+#blog-title a:hover {
+  color:#c60;
+  }
+#description {
+  margin:0 5px 5px;
+  padding:0 20px 20px;
+  border:1px solid #eee;
+  border-width:0 1px 1px;
+  max-width:700px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+
+/* Content
+----------------------------------------------- */
+@media all {
+  #content {
+    width:800px;
+    margin:0 auto;
+    padding:0;
+    text-align:left;
+    }
+  #main {
+    width:500px;
+    float:left;
+    }
+  #sidebar {
+    width:220px;
+    float:right;
+    }
+  }
+@media handheld {
+  #content {
+    width:90%;
+    }
+  #main {
+    width:100%;
+    float:none;
+    }
+  #sidebar {
+    width:100%;
+    float:none;
+    }
+  }
+
+/* Headings
+----------------------------------------------- */
+h2 {
+  margin:1.5em 0 .75em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+
+
+/* Posts
+----------------------------------------------- */
+@media all {
+  .date-header {
+    margin:1.5em 0 .5em;
+    }
+  .post {
+    margin:.5em 0 1.5em;
+    border-bottom:1px dotted #ccc;
+    padding-bottom:1.5em;
+    }
+  }
+@media handheld {
+  .date-header {
+    padding:0 1.5em 0 1.5em;
+    }
+  .post {
+    padding:0 1.5em 0 1.5em;
+    }
+  }
+.post-title {
+  margin:.25em 0 0;
+  padding:0 0 4px;
+  font-size:140%;
+  font-weight:normal;
+  line-height:1.4em;
+  color:#c60;
+  }
+.post-title a, .post-title a:visited, .post-title strong {
+  display:block;
+  text-decoration:none;
+  color:#c60;
+  font-weight:normal;
+  }
+.post-title strong, .post-title a:hover {
+  color:#333;
+  }
+.post div {
+  margin:0 0 .75em;
+  line-height:1.6em;
+  }
+p.post-footer {
+  margin:-.25em 0 0;
+  color:#ccc;
+  }
+.post-footer em, .comment-link {
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+.post-footer em {
+  font-style:normal;
+  color:#999;
+  margin-right:.6em;
+  }
+.comment-link {
+  margin-left:.6em;
+  }
+.post img {
+  padding:4px;
+  border:1px solid #ddd;
+  }
+.post blockquote {
+  margin:1em 20px;
+  }
+.post blockquote p {
+  margin:.75em 0;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+  }
+#comments h4 strong {
+  font-size:130%;
+  }
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;
+  }
+#comments-block dt {
+  margin:.5em 0;
+  }
+#comments-block dd {
+  margin:.25em 0 0;
+  }
+#comments-block dd.comment-timestamp {
+  margin:-.25em 0 2em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+#comments-block dd p {
+  margin:0 0 .75em;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar ul {
+  margin:0 0 1.5em;
+  padding:0 0 1.5em;
+  border-bottom:1px dotted #ccc;
+  list-style:none;
+  }
+#sidebar li {
+  margin:0;
+  padding:0 0 .25em 15px;
+  text-indent:-15px;
+  line-height:1.5em;
+  }
+#sidebar p {
+  color:#666;
+  line-height:1.5em;
+  }
+
+
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  margin:0 0 1.5em;
+  border-bottom:1px dotted #ccc;
+  padding-bottom:1.5em;
+  }
+.profile-datablock {
+  margin:.5em 0 .5em;
+  }
+.profile-img {
+  display:inline;
+  }
+.profile-img img {
+  float:left;
+  padding:4px;
+  border:1px solid #ddd;
+  margin:0 8px 3px 0;
+  }
+.profile-data {
+  margin:0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+.profile-data strong {
+  display:none;
+  }
+.profile-textblock {
+  margin:0 0 .5em;
+  }
+.profile-link {
+  margin:0;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  width:660px;
+  clear:both;
+  margin:0 auto;
+  }
+#footer hr {
+  display:none;
+  }
+#footer p {
+  margin:0;
+  padding-top:15px;
+  font:78%/1.6em "Trebuchet MS",Trebuchet,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  }
+
+
+/* Feeds
+----------------------------------------------- */
+#blogfeeds {
+  }
+#postfeeds {
+  }
+  </style>
+
+<!-- --><style type="text/css">@import url(https://www.blogger.com/static/v1/v-css/navbar/3334278262-classic.css);
+div.b-mobile {display:none;}
+</style>
+
+</head>
+
+<body><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0757958140996781104565\46blogName\75Unqualified+Reservations\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75TAN\46layoutType\75CLASSIC\46searchRoot\75http://unqualified-reservations.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://unqualified-reservations.blogspot.com/\46vt\0754192328977490668327',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script>
+
+<div id="header">
+
+  <h1 id="blog-title">
+    <a href="http://unqualified-reservations.blogspot.com/">
+	Unqualified Reservations
+	</a>
+  </h1>
+  <p id="description">Reactionary Enlightenment</p>
+
+</div>
+
+<!-- Begin #content -->
+<div id="content">
+
+
+<!-- Begin #main -->
+<div id="main"><div id="main2">
+
+
+
+    
+  <h2 class="date-header">Monday, May 7, 2007 
+  
+  <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=7958140996781104565&amp;postID=4535996064386591118"location.href=http://www.blogger.com/comment.g?blogID=7958140996781104565&postID=4535996064386591118;><span style="text-transform:lowercase">29 Comments</span></a>
+  
+  </h2>
+  
+
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="4535996064386591118"></a>
+         
+    <h3 class="post-title">
+	 <a href="http://unqualified-reservations.blogspot.com/2007/05/bdh-ov-conflict_07.html" title="external link">
+	 The BDH-OV conflict
+	 </a>
+    </h3>
+    
+
+	         <div class="post-body">
+	<div>
+      <div style="clear:both;"></div>Yesterday I <a href="http://unqualified-reservations.blogspot.com/2007/05/castes-of-united-states.html">posted</a> a taxonomy of the conflicting social castes in the US.  I outlined five  groups (Brahmin, Dalit, Helot, Optimate, Vaisya) in language that was neutral to slightly negative, using a bit of anthro-speak to focus on personal, rather than political, values.<br /><br />However, it's pretty obvious where the political divisions lie.  The Democrats are the party of the Brahmins, Dalits and Helots.  The Republicans are the party of the Optimates and Vaisyas.   Thus, instead of the red-state / blue-state conflict, which uses meaningless colors and averages geographically in a way that blurs information, we can speak of the "BDH-OV conflict."<br /><br />The exceptions to the definition of "blue-state" as BDH, and "red-state" as OV, are in many ways the best illustrations of this principle.  For example, not all African-Americans and Hispanics are BDH - many are Vaisyas, with careers and value systems very similar to those of the stereotypical "Middle American" (the German <a href="http://en.wikipedia.org/wiki/Mittelstand">Mittelstand</a>, in the 1930s sense of the word, is an even better match).  But these voters of course vote overwhelmingly for the Democrats - in other words, they vote by race rather than caste.  As Steve Sailer <a href="http://www.vdare.com/sailer/gop_future.htm">points out</a>, Republican attempts to capture them have been futile and are probably a waste of time.<br /><br />There is a lot of linguistic delicacy surrounding the BDH-OV conflict. As in any political contest, each side can succeed only by crushing the other - capturing its institutions and converting its followers.  But keeping this conflict and its predecessors within the bounds of democratic politics, and preventing any degeneration into actual combat, has been a central concern of American intellectuals for the last 200 years.  Obviously they haven't always succeeded, which makes the concern all the more intense.<br /><br />Therefore, we tend to think in terms of euphemisms that conceal the total and existential nature of this nasty and pointless struggle, which I despise with every particle in my body.  One of the main reasons I started this blog is that I don't see how the BDH-OV conflict can end until a lot more people are willing to speak frankly about what's actually going on.  Wringing our hands in a vain expression of "unity" will not do the job - especially because some of the most interesting tropes of the conflict are issues on which, in my opinion, <span style="font-style: italic;">both</span> sides are profoundly detached from reality.<br /><br />In my opinion this euphemistic approach to what pretends to be a conflict of ideas and ideals, but is in fact an ordinary and rather tawdry case of <a href="http://en.wikipedia.org/wiki/Communal_violence">communal violence</a>, is inseparable from the disaster of democracy.  As Clausewitz observed, war and politics are a continuum.  Representative democracy is a limited civil war in which the armies show up, get counted, but don't actually fight.  The BDH and OV factions refrain - mostly - from inciting or participating in outright warfare, for one reason: it is not in either's interest.  If this ever changes, they'll be at each others' throats like Hutus and Tutsis.<br /><br />Democracy, like all conventions of limited war, is fragile.  It's hard to establish and easy to destroy.  One of my main concerns is that I think the principal check that keeps the US from degenerating into actual violence is the 75-year-old informational dominance of "responsible" broadcast and newspaper journalism.  This system is dying.  It is being replaced by people like Amanda Marcotte and Michelle Malkin.  And their followers, if not them personally, seem to have enough pure, 24-karat hate stored up for ten or fifteen really juicy civil wars.<br /><br />So when people talk about abandoning democracy, they can mean one of two things.  They can mean "screw it, let's go to the mattresses," or they can mean abolishing the conflict itself, and designing a system which is based on the rule of law rather than political triumph and defeat.  Democratic politics is the middle ground between these options, and I follow Hazlitt (William, not Henry, though they both rock) in refusing to split the difference between right and wrong.    This is why I oppose democracy, even though there are many worse alternatives.<br /><br />Except under circumstances which everyone reading this would consider disastrous, the BDH-OV conflict cannot end in the victory of either side.  This should be reason enough for anyone to avoid taking up cudgels on behalf of either.  However, because the conflict is at bottom an emotional one, not a matter of facts and figures, I should explain my own emotional response to it.<br /><br />The hate expressed by BDH or blue-state intellectuals, from Noam Chomsky to Al Sharpton, has a peculiarly smug and contemptuous tone which is instantly familiar to any student of the 20th century, and it leads me - despite my Brahmin upbringing - to side instinctively with the OV faction.  I am simply aghast at the hatred of Middle America I see so often in San Francisco.  It is pure poison.  It is right up there with Streicher in his prime.  If it fails to generate actual mayhem, this is a consequence not of tolerance but of sheeplike docility.<br /><br />But the OVs, the red-staters, have no intellectual institutions worth a damn, since the formerly Optimate universities have all been captured by Brahmins.  The Optimate caste is disappearing, and the OV faction is becoming simply V.  Since Brahmins tend to be both smarter and better-informed than Vaisyas, there is a tendency - increasing rather than decreasing - for OV perspectives to celebrate ignorance and superstition.  You can take the boy out of the library but you can't take the library out of the boy: at heart, I am still a Brahmin.<br /><br />Also, I believe the actual political tactics pursued by the OV party - that is, the Republicans - have been spectacularly unsuccessful to the point of self-inflicted disaster.  I cannot imagine any possible future in which the Republicans actually do recapture Washington - as opposed to the largely-symbolic White House - and if such a thing were to actually happen, I think the results would be so appalling that I'm not sure I could continue to live in the US.<br /><br />Because we know exactly what a 20th-century OV regime looks like.  It looks like Hitler.  It also looks like Pinochet, Franco, Salazar, Dollfuss, Verwoerd, Batista, Ian Smith, etc, etc.  Hitler ruined it with me when he murdered the Jews, but I do think these other figures of the 20th-century OV "right" have much worse reputations than they deserve.  However, I would not describe their regimes as either desirable or successful.  Politically they are a dead end.<br /><br />This definition of "left" as "BDH" and right as "OV" explains a few things.  One of them is the strangely disparate treatment meted out to Nazis and Communists.  If the US ever started to persecute neo-Communists the way the <a href="http://www.splcenter.org/intel/news/item.jsp?site_area=1&amp;aid=252">SPLC</a> hunts for neo-Nazis, it would make McCarthy look like Nelson Rockefeller.  If neo-Nazis were as influential as neo-Communists, San Francisco would have an Albert-Speer-Strasse.  But the actual human rights violations committed by 20th-century Communists were if anything greater than those committed by all the Fascist parties together, so the doctrine of human rights cannot explain this conundrum.<br /><br />The answer is that, supposedly, the Communists were "well-intentioned," while the Nazis were simply straight-out evil.  This bit of nonsensical sophistry cannot be defended for a minute.  The Nazis, for example, won 90% of the vote in the 1935 <a href="http://en.wikipedia.org/wiki/Saar_%28League_of_Nations%29">Saarland plebiscite</a>, which was administered not by them but by the French.  It is generally agreed by historians that National Socialism was overwhelmingly supported by the vast majority of Germans from at least 1934 through 1938.  The idea that the burghers who lined up to cheer for Hitler were cackling like Dr. Evil is as ahistorical as any ever advanced.<br /><br />The real cause of the Nazi-Communist conundrum is just that today's ruling class is Brahmin, it writes the history books as winners always have, and the Nazi regime was OV to the core.  Whereas Communism is best understood as a sort of deformed, Russian offshoot of the BDH coalition.  Of course, it is simply human nature that people are more likely to be appalled by the crimes of their enemies, and excuse or ignore the crimes of their allies.<br /><br />The current structure of the BDH-OV conflict dates back to the '60s, when Vaisyas started to catch on that the New Deal was not, in fact, all about them.  FDR's machine, which of course rules us to this day, was built to a substantial extent on inner-city Irish-Italian-Jewish political machines and their agrarian counterparts.  That is, it was built on the votes of Vaisyas who loved the idea of a government that was on their side.  But the New Deal in practice was a Brahmin operation from top to bottom, as were its New Frontier and Great Society successors.  When this started to become apparent, Nixon's "silent majority," the "Reagan Democrats," etc, etc - in other words, the Vaisya whites - left the party their ancestors had supported for generations.  They were replaced by the burgeoning Dalit and Helot castes, and by Optimates whose children were reeducated as Brahmins (in universities captured by <a href="http://www.amazon.com/Guardians-Kingman-Brewster-Liberal-Establishment/dp/0805077774">BDH violence</a>), creating the present shape of the conflict.<br /><br />But the word "Brahmin" has of course been applied to the <a href="http://en.wikipedia.org/wiki/Boston_Brahmin">New England elite</a> for quite some time now.  Ultimately I think the BDH-OV conflict is best seen as the contemporary incarnation of the same volcanic hotspot in Anglo-American culture which gave us the English Civil War, the Jacobite Wars, and the American Civil War.  In other words, the Brahmins are the modern Roundheads, whereas the Optimates are the modern Cavaliers.  The other castes, poor schmucks, tend to get the shaft no matter who is in power or what line they preach.<div style="clear:both; padding-bottom:0.25em"></div>
+    </div>
+    </div>
+    
+    <p class="post-footer">
+      <em>posted by Mencius Moldbug at 
+    <a class="post-footer-link" href="http://unqualified-reservations.blogspot.com/2007/05/bdh-ov-conflict_07.html" title="permanent link"> 7:33 PM </a></em>
+        <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7958140996781104565&postID=4535996064386591118&from=pencil" title="Edit Post"><img class="icon-action" alt="" src="http://img2.blogblog.com/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  
+  <!-- Begin #comments -->
+ 
+  <div id="comments">
+
+	<a name="comments"></a>
+        <h4>29 Comments:</h4>
+        <dl id="comments-block">
+      
+      <dt class="comment-poster" id="2468592902075471520"><a name="2468592902075471520"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">smb</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>I take issue with the notion that the "OV" caste has no intellectual institutions remaining. Even in this wreck of a liberal arts college that I've found myself in, there is a hearty part of population that can recognize Kipling’s "Gods of the Copybook Headings." Moreover, the 'think-tank' network funded by Optimates offers not a little hope. Surely, City Journal provides something to the cultural discourse, even if contributors don't necessarily have a string of initials after their names. And even if they don't, Manhattan Institute writers often do.<BR/><BR/>You are undoubtedly correct that the old Optimate caste is dying. However the post-Optimates are rising to replace them. I've attempted to expand on this nascent caste in earlier comment sections. Anyhow, the gist is that there's a common understanding between what was the haute-bourgeoisie and what could only be called the ambitious children of the middle classes. It's a clunky phrase, but it captures the picture. There are still debutantes, but now public high school grads end up marrying them.<BR/><BR/>I don't claim these post-Optimates are politically unified—in my experience, they aren't—but they generally oppose the BDH establishment, whilst tempering the Vaisya faction.<BR/><BR/>Also, have you considered that in recognizing the joint interests of the O-V castes, you're functioning as a latter-day Disraeli?</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#2468592902075471520" title="comment permalink">May 8, 2007 at 12:35 AM</a>
+	  <span class="item-control blog-admin pid-1314286465"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=2468592902075471520" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7567199502708682159"><a name="7567199502708682159"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">PA</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>I wonder, don't some B's consider the possibility of D's and H's turning on them, Marie Antoinette-style, if not intentionally then in the context of the chaos than may be unleashed should their numbers and restlessness grow uncontrolled?<BR/><BR/>On a related note, I am surprised that B's don't see a continuity or at least a kinship with V's, being that most B's are a generation or two removed from rural or humble middle-class backgrounds (isn't filial piety in some form or another is a human constant?)<BR/><BR/>Also, arguably, the difference between most V's and B's is one of small degree or of circumstance, not of kind.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7567199502708682159" title="comment permalink">May 8, 2007 at 7:08 AM</a>
+	  <span class="item-control blog-admin pid-1661008614"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7567199502708682159" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="8203982249473357537"><a name="8203982249473357537"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Raymund</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>pa, I don't think Bs worry about social upheaval caused by DHs.  High status white Americans are concerned about winning status games against other white Americans, primarily Vs.  White Hs and non-whites don't factor in.  Steve Sailer has a lot to say about this; much of Tom Wolfe's  writing touches on these points too.<BR/><BR/>Second, Bs are better insulated than Vs from a DH-caused social breakdown, thanks to their gated communities and private schools.  If anything, a social breakdown enhances the status of those markers.  Vs and aspiring Hs will go from "private school will help my kid get a better job" to "private school will keep my kid from getting stabbed by los cholos."<BR/><BR/>But third, Ds and Hs almost never stage a revolt, let alone a successful one.  Revolts are usually staged by medium- to high-status people who feel they are losing their privileges.  (See Robert Cialdini's <I>Influence</I> for more).  E.g. Os led the American revolution and the Confederate side of the civil war.  A mix of Bs and Vs led the French revolution.<BR/><BR/>As for kinship between Bs and their V forefathers, one of the main currents of B-thought since the French revolution has been a disdain for tradition and the legacy of the past.  (For example, despite my reading of Hayek and Popper, I'm a B with a lot of knotted, uncharitable feelings toward my V/H family of origin and its mores).  Plus, the generation gap has been with us since the ancient Greeks, if not before.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#8203982249473357537" title="comment permalink">May 8, 2007 at 9:18 AM</a>
+	  <span class="item-control blog-admin pid-1729598698"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=8203982249473357537" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="8039866964411686925"><a name="8039866964411686925"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>smb,<BR/><BR/>Okay, "no" is a strong term.  And there is some recovery.  But the opposition to the BDH machine remains very weak and scattered - compared to, say, the Liberty League of the '30s.<BR/><BR/>I too am encouraged by the rising tide of intellectual dissent.  But I am discouraged by the rising tide of non-intellectual dissent - ie, the thyroid-deficient, talk-radio right - which might as well be in the pay of the Brahmins, for all the good it does.<BR/><BR/>(It is my firm belief that the only way to beat the Brahmins is to beat them on their home field, that is, intellectually - not politically or militarily.  The BDH version of reality is so strange and sclerotic that any Brahmin with a brain will have these little moments of questioning, and there need to be sensible answers ready to dart in whenever these tiny gaps open.)<BR/><BR/>It is interesting that you mention Disraeli.  In my view he was a disaster - it is impossible to imagine Strachey without Disraeli.  The mystical imperialism of the late high Victorians gave the Bloomsbury/Fabian set both a preposterous balloon to pop, and a healthy start on their own version of state-worship.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#8039866964411686925" title="comment permalink">May 8, 2007 at 7:17 PM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=8039866964411686925" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7747585817473079006"><a name="7747585817473079006"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>pa and raymund,<BR/><BR/>I sort of agree with both of you.  The revolution is seldom started by the DHes, but these underclasses are not to be underestimated - in many cases, it is not the Bs who are using them, but they who are using the Bs.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7747585817473079006" title="comment permalink">May 8, 2007 at 7:19 PM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7747585817473079006" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="6638477360102972871"><a name="6638477360102972871"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/07502643147409731979" rel="nofollow">Steve</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>who's Kipling? and what's City Journal?</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#6638477360102972871" title="comment permalink">May 8, 2007 at 8:47 PM</a>
+	  <span class="item-control blog-admin pid-1161971342"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=6638477360102972871" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7670741580041367913"><a name="7670741580041367913"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>Steve,<BR/><BR/>Don't tell me you've never kippled!</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7670741580041367913" title="comment permalink">May 9, 2007 at 12:07 AM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7670741580041367913" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="4229366866517394684"><a name="4229366866517394684"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">PA</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>Raymund - Good points, generally. But South Africa today is a case study of what happens when Brahmins overplay their hand in 'sicing' Dalits and Helots against the O-V classes and then lose control of the situation.<BR/><BR/>Mencius - You're right, today's Brahmin class is potentially quite fissile. Your point that they can be beaten only on their own terms, ie., intellectually, is similar to Larry Auster's parallel argument that intellectual Traditionalism is the only way to sustain a fight against Liberalism.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#4229366866517394684" title="comment permalink">May 9, 2007 at 3:16 AM</a>
+	  <span class="item-control blog-admin pid-454264384"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=4229366866517394684" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="4448455111272002984"><a name="4448455111272002984"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>PA,<BR/><BR/>Similar - but very different!  I've had some interesting experiences emailing with Larry.  As I said, I have the highest respect for him.  But do I think he's on the right track?  Not quite...</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#4448455111272002984" title="comment permalink">May 9, 2007 at 8:19 PM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=4448455111272002984" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7358729407937177432"><a name="7358729407937177432"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">TGGP</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>Should Batista really be lumped in with those others? He was black and born to a poor family (since it was old Cuba, I would say Helot and not Dalit), replaced by a rather well-off white (i.e a Brahmin). His rule wasn't disastrous either. Cuba had a positive rate of net migration with even European countries. Nowadays even Haitians won't flee to Cuba. See <A HREF="http://www.lewrockwell.com/woods/woods47.html" REL="nofollow">this interview</A> with Huberto Fontova.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7358729407937177432" title="comment permalink">May 10, 2007 at 11:52 PM</a>
+	  <span class="item-control blog-admin pid-2067466768"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7358729407937177432" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="6368118741573032369"><a name="6368118741573032369"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>TGGP,<BR/><BR/>I suspect that if you look at the others, you may end up with the same conclusion!  Ian Smith's autobiography, for instance, while it's not very well-written, is certainly an interesting read.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#6368118741573032369" title="comment permalink">May 11, 2007 at 12:40 PM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=6368118741573032369" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="481122964714811541"><a name="481122964714811541"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">tggp</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>Perhaps Ian Smith wasn't a bad leader (I don't know, I'm not familiar with the history), but I am sure he was OV rather than BDH. Batista seems to have come from the latter.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#481122964714811541" title="comment permalink">May 11, 2007 at 3:11 PM</a>
+	  <span class="item-control blog-admin pid-1020218239"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=481122964714811541" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="6519951298910666371"><a name="6519951298910666371"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>TGGP,<BR/><BR/>Hey, thanks for pimping me over at Taki's!<BR/><BR/>Smith was definitely a Vaisya.  I am not that familiar with Batista, but I suspect that the best translation to US conditions would put him as a Vaisya also.  <BR/><BR/>Both the Helot and Dalit phenomena are rather special to the US as it is today - to me Helotry implies a real rootlessness, a complete separation from civil society.  Also, Batista may have been the child of agricultural laborers, but he was resocialized as an army NCO, which is very much the Vaisya segment of the military caste.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#6519951298910666371" title="comment permalink">May 12, 2007 at 10:03 AM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=6519951298910666371" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="8754648110959266621"><a name="8754648110959266621"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">TGGP</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>You are right that the military/officer corps has usually been OV dominated. However, that would make Hugo Chavez, Moammar Qadhaffi, the communist <A HREF="http://en.wikipedia.org/wiki/Derg" REL="nofollow">Derg</A>,  <A HREF="http://en.wikipedia.org/wiki/Jerry_John_Rawlings" REL="nofollow">Flt. Lt. Jerry John Rawlings</A>, <A HREF="http://en.wikipedia.org/wiki/Thomas_Sankara" REL="nofollow">Thomas Sankara</A>, <A HREF="http://en.wikipedia.org/wiki/Lucio_Guti%C3%A9rrez" REL="nofollow">Lucio Gutierrez</A>, <A HREF="http://en.wikipedia.org/wiki/Siad_Barre" REL="nofollow">Siad Barre</A> and others who fit the mold of revolutionary leftists would also be OV. I still say Batista's military service is insufficient to make him OV, though I admit that my lack of knowledge about old Cuban society relative to that of the US may warp my view.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#8754648110959266621" title="comment permalink">May 12, 2007 at 9:18 PM</a>
+	  <span class="item-control blog-admin pid-637543253"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=8754648110959266621" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="9142068074550128015"><a name="9142068074550128015"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>A couple of minor quibbles: the defining characteristic of the traditional Mittelstand was independence*, so corporate and government jobs wouldn't qualify, though they're obviously part of your Vaisya component. The other point is that the Saarland plebiscite was about rejoining Germany or remaining under League of Nations (effectively French) domination, not exactly a referendum on the Nazi regime. (Your basic point stands though: the border and irredenta areas were generally pro-Nazi.)<BR/><BR/>To what extent do you think your BDH/OV scheme applies to other Western societies?<BR/><BR/>*or supposed independence - no-one dishes out the "independence" rhetoric better than a farmer who gets 70% of his income from the state (though farmers are Bauernstand rather than Mittelstand).<BR/><BR/>intellectual pariah</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#9142068074550128015" title="comment permalink">May 13, 2007 at 11:20 AM</a>
+	  <span class="item-control blog-admin pid-1567846928"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=9142068074550128015" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="6080258993744520891"><a name="6080258993744520891"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/16472157249344139282" rel="nofollow">Mencius Moldbug</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>TGGP and IP,<BR/><BR/>I am not an expert in old Cuba either, and I think my system totally falls apart when it comes to the 3rd world proper (which Cuba wasn't, really).<BR/><BR/>I do insist on the distinction between NCOs and officers, though.  It is perhaps the clearest remaining line between Vaisya and Optimate (or, increasingly, Brahmin) status.<BR/><BR/>IP, I defer on Bauernstand versus Mittelstand - your knowledge of things German clearly exceeds mine. And yes, I do know what the Saarland referendum was about.  But it was by no means the only Nazi plebiscite, just the only one run by the French.  And Nazi Germany, in general, was very pro-Nazi.  At least until the war.  <BR/><BR/>National Socialism was definitely a Protestant movement, culturally at least, and most of the opposition to it came from Catholics and aristos.  But if you read Richard Evans' history of the Third Reich, in '38 even the exiled Social Democrat leadership was admitting that Hitler was overwhelmingly popular.  Of course I interpret this as a negative reflection on democracy, not a positive reflection on Nazism!<BR/><BR/>To me the core of Vaisya-ness is materialism - a complete engagement with work, family and community.  Patriotism and religion are often part of this, but experienced on a tribal rather than an intellectual level.  I think of fascism as a heinous perversion of this value system, much as communism is a perversion of Brahmin values.  <BR/><BR/>Behind every movement there is a beautiful truth, and Nazism is no exception.  This does not contradict the heinous crimes of the Nazis - it explains how they could happen.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#6080258993744520891" title="comment permalink">May 13, 2007 at 12:14 PM</a>
+	  <span class="item-control blog-admin pid-2071226646"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=6080258993744520891" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="719669849184399"><a name="719669849184399"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia money</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia gold</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia item</A> <A HREF="http://www.rsgold-accounts.com/accounts.htm" REL="nofollow">runescape accounts</A> <A HREF="http://www.rsgold-accounts.com/accounts.htm" REL="nofollow">buy runescape accounts</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">runescape money</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">runescape gold</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">runescape gp</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">runescape power leveling</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">runescape powerleveling</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">cheap rs2 powerleveling </A> <A HREF="http://www.rsgold-accounts.com/equipments.htm" REL="nofollow">runescape equipment</A> <A HREF="http://www.rsgold-accounts.com/equipments.htm" REL="nofollow">buy rs equipment</A> <A HREF="http://www.rsgold-accounts.com/runes.htm" REL="nofollow">runescape runes</A> <A HREF="http://www.rsgold-accounts.com/runes.htm" REL="nofollow">cheap rs2 runes</A> <A HREF="http://www.rsgold-accounts.com/logs.htm" REL="nofollow">runescape logs</A> <A HREF="http://www.rsgold-accounts.com/logs.htm" REL="nofollow">cheap rs2 logs</A> <A HREF="http://www.rsgold-accounts.com/othergoods.htm" REL="nofollow">runescape items</A> <A HREF="http://www.rsgold-accounts.com/othergoods.htm" REL="nofollow">buy runescape items</A> <A HREF="http://www.rsgold-accounts.com/questpoint.htm" REL="nofollow">runescape quest point</A> <A HREF="http://www.rsgold-accounts.com/questpoint.htm" REL="nofollow">rs2 quest point</A> <A HREF="http://www.rsgold-accounts.com/questpoint.htm" REL="nofollow">cheap runescape questpoint</A> <A HREF="http://www.rsgold-accounts.com/FAQ.htm" REL="nofollow">runescape gold</A> <A HREF="http://www.rsgold-accounts.com/FAQ.htm" REL="nofollow">runescape items</A> <A HREF="http://www.rsgold-accounts.com/FAQ.htm" REL="nofollow">runescape power leveling</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape money</A>  <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape gold</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">buy runescape gold</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">buy runescape money</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape items</A> <A HREF="http://www.cgoldseller.com/rs01.asp" REL="nofollow">runescape accounts</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape gp</A> <A HREF="http://www.rsgold-accounts.com/FAQ.htm" REL="nofollow">runescape accounts</A> <A HREF="http://www.rsgold-accounts.com/FAQ.htm" REL="nofollow">runescape money</A> <A HREF="http://www.cgoldseller.com/RunescapePowerleveling.asp" REL="nofollow">runescape power leveling</A> <A HREF="http://www.cgoldseller.com/RunescapePowerleveling.asp" REL="nofollow">runescape powerleveling</A> <A HREF="http://www.cgoldseller.com/serverlist1.asp?gid=18&gname=Tibia" REL="nofollow">tibia gold</A> <A HREF="http://www.cgoldseller.com/serverlist2.asp?gid=19&gname=Dofus" REL="nofollow">dofus kamas</A> <A HREF="http://www.cgoldseller.com/serverlist2.asp?gid=19&gname=Dofus" REL="nofollow">buy dofus kamas</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">wow power leveling</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">wow powerleveling</A> <A HREF="http://www.rsgold-accounts.com/questpoint.htm" REL="nofollow">runescape questpoint</A> <A HREF="http://www.rsgold-accounts.com/questpoint.htm" REL="nofollow">rs2 questpoint</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">Warcraft PowerLeveling</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">Warcraft Power Leveling</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">World of Warcraft PowerLeveling</A> <A HREF="http://www.cgoldseller.com/serverlist5.asp?gid=23&gname=World%20of%20Warcraft%20-%20USA" REL="nofollow">World of Warcraft Power Leveling</A> <A HREF="http://www.cgoldseller.com/serverlist6.asp?gid=24&gname=Hellgate%20London" REL="nofollow">Hellgate money</A> <A HREF="http://www.cgoldseller.com/serverlist6.asp?gid=24&gname=Hellgate%20London" REL="nofollow">Hellgate gold</A> <A HREF="http://www.rsgold-accounts.com/logs.htm" REL="nofollow">buy runescape logs</A> <A HREF="http://www.rsgold-accounts.com/othergoods.htm" REL="nofollow">buy rs2 items</A> <A HREF="http://www.rsgold-accounts.com/othergoods.htm" REL="nofollow">cheap runescape items</A> <A HREF="http://www.cgoldseller.com/serverlist6.asp?gid=24&gname=Hellgate%20London" REL="nofollow">Hellgate London gold</A> <A HREF="http://www.cgoldseller.com/serverlist14.asp?gid=32&gname=Guild%20Wars" REL="nofollow">Guild Wars Gold</A> <A HREF="http://www.cgoldseller.com/serverlist14.asp?gid=32&gname=Guild%20Wars" REL="nofollow">buy Guild Wars Gold</A> <A HREF="http://www.rsgold-accounts.com/accounts.htm" REL="nofollow">runescape items</A> <A HREF="http://www.rsgold-accounts.com/accounts.htm" REL="nofollow">rs2 accounts</A> <A HREF="http://www.rsgold-accounts.com/equipments.htm" REL="nofollow">cheap rs2 equipments</A> <A HREF="http://www.cgoldseller.com/serverlist8.asp?gid=26&gname=Lord%20of%20the%20Rings%20Online(US)" REL="nofollow">lotro gold</A> <A HREF="http://www.cgoldseller.com/serverlist8.asp?gid=26&gname=Lord%20of%20the%20Rings%20Online(US)" REL="nofollow">buy lotro gold</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">buy runescape money</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">buy runescape gold</A> <A HREF="http://www.rsgold-accounts.com/runes.htm" REL="nofollow">buy runescape runes</A> <A HREF="http://www.cgoldseller.com/serverlist7.asp?gid=25&gname=Lord%20of%20the%20Rings%20Online(EU)" REL="nofollow">lotro gold</A> <A HREF="http://www.cgoldseller.com/serverlist7.asp?gid=25&gname=Lord%20of%20the%20Rings%20Online(EU)" REL="nofollow">buy lotro gold</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape money</A> <A HREF="http://www.cgoldseller.com/rs1.asp" REL="nofollow">runescape gold</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">cheap rs2 powerleveling </A> <A HREF="http://www.cgoldseller.com/serverlist11.asp?gid=29&gname=EVE%20online" REL="nofollow">eve isk</A> <A HREF="http://www.cgoldseller.com/serverlist11.asp?gid=29&gname=EVE%20online" REL="nofollow">eve online isk</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">buy runescape power leveling</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">rs2 power leveling</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia gold</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia item</A> <A HREF="http://www.cgoldseller.com/rs01.asp" REL="nofollow">runescape accounts</A> <A HREF="http://www.cgoldseller.com/serverlist10.asp?gid=28&gname=Fiesta" REL="nofollow">Fiesta Silver</A> <A HREF="http://www.cgoldseller.com/serverlist10.asp?gid=28&gname=Fiesta" REL="nofollow">Fiesta Gold</A> <A HREF="http://www.cgoldseller.com/serverlist13.asp?gid=31&gname=SilkRoad%20Online" REL="nofollow">SilkRoad Gold</A> <A HREF="http://www.cgoldseller.com/serverlist13.asp?gid=31&gname=SilkRoad%20Online" REL="nofollow">buy SilkRoad Gold</A> <A HREF="http://www.cgoldseller.com/serverlist3.asp?gid=20&gname=Scions%20of%20Fate" REL="nofollow">Scions of Fate Gold</A> <A HREF="http://www.cgoldseller.com/serverlist6.asp?gid=24&gname=Hellgate%20London" REL="nofollow">Hellgate Palladium</A> <A HREF="http://www.cgoldseller.com/serverlist6.asp?gid=24&gname=Hellgate%20London" REL="nofollow">Hellgate London Palladium</A> <A HREF="http://www.cgoldseller.com/serverlist3.asp?gid=20&gname=Scions%20of%20Fate" REL="nofollow">SOF Gold</A> <A HREF="http://www.cgoldseller.com/serverlist4.asp?gid=22&gname=Age%20Of%20Conan" REL="nofollow">Age Of Conan Gold</A> <A HREF="http://www.cgoldseller.com/serverlist4.asp?gid=22&gname=Age%20Of%20Conan" REL="nofollow">AOC Gold</A> <A HREF="http://www.cgoldseller.com/serverlist12.asp?gid=30&gname=ArchLord" REL="nofollow">ArchLord gold</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia money</A> <A HREF="http://www.tibiacrystal.com" REL="nofollow">tibia gold</A> <A HREF="http://www.rsgold-accounts.com/accounts.htm" REL="nofollow">runescape accounts</A> <A HREF="http://www.rsgold-accounts.com/index-1.htm" REL="nofollow">runescape gold</A> <A HREF="http://www.rsgold-accounts.com/powerleveling.htm" REL="nofollow">cheap rs2 powerleveling </A> <A HREF="http://www.cgoldseller.com/serverlist12.asp?gid=30&gname=ArchLord" REL="nofollow">buy ArchLord gold</A> <A HREF="http://www.cgoldseller.com/serverlist9.asp?gid=27&gname=Dungeons%20&%20Dragons%20Online" REL="nofollow">DDO Plat</A> <A HREF="http://www.cgoldseller.com/serverlist9.asp?gid=27&gname=Dungeons%20&%20Dragons%20Online" REL="nofollow">Dungeons and Dragons Online Plat</A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#719669849184399" title="comment permalink">September 3, 2008 at 7:08 PM</a>
+	  <span class="item-control blog-admin pid-1433399988"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=719669849184399" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="178837193502357885"><a name="178837193502357885"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.ing199.net" REL="nofollow">情趣用品</A>,<A HREF="http://www.sexy688.com" REL="nofollow">情趣用品</A>,<A HREF="http://www.show688.net" REL="nofollow">情趣用品</A>,<A HREF="http://www.show688.net/shop" REL="nofollow">情趣用品</A>,<A HREF="http://www.ing199.net" REL="nofollow">情趣</A>,<A HREF="http://www.sexy688.com" REL="nofollow">情趣</A>,<A HREF="http://www.show688.net" REL="nofollow">情趣</A>,<A HREF="http://www.show688.net/shop" REL="nofollow">情趣</A>,<A HREF="http://www.ing199.net/category.php?id=13" REL="nofollow">充氣娃娃</A>,<A HREF="http://www.show688.net/001" REL="nofollow">免費A片</A>,<A HREF="http://www.show688.net/002" REL="nofollow">AV女優</A>,<A HREF="http://www.show688.net/003" REL="nofollow">美女視訊</A>,<A HREF="http://www.show688.net/004" REL="nofollow">情色交友</A>,<A HREF="http://www.show688.net/005" REL="nofollow">免費AV</A>,<A HREF="http://www.show688.net/006" REL="nofollow">色情網站</A>,<A HREF="http://www.show688.net/007" REL="nofollow">辣妹視訊</A>,<A HREF="http://www.show688.net/008" REL="nofollow">美女交友</A>,<A HREF="http://www.show688.net/009" REL="nofollow">色情影片</A>,<A HREF="http://www.show688.net/010" REL="nofollow">成人影片</A>,<A HREF="http://www.show688.net/011" REL="nofollow">成人網站</A>,<A HREF="http://www.show688.net/012" REL="nofollow">A片</A>,<A HREF="http://www.show688.net/013" REL="nofollow">H漫</A>,<A HREF="http://www.show688.net/014" REL="nofollow">18成人</A>,<A HREF="http://www.show688.net/015" REL="nofollow">成人圖片</A>,<A HREF="http://www.show688.net/016" REL="nofollow">成人漫畫</A>,<A HREF="http://www.show688.net/017" REL="nofollow">情色網</A>,<A HREF="http://www.ing199.net/001" REL="nofollow">成人交友</A>,<A HREF="http://www.ing199.net/002" REL="nofollow">嘟嘟成人網</A>,<A HREF="http://www.ing199.net/003" REL="nofollow">成人電影</A>,<A HREF="http://www.ing199.net/004" REL="nofollow">成人</A>,<A HREF="http://www.ing199.net/005" REL="nofollow">成人貼圖</A>,<A HREF="http://www.ing199.net/006" REL="nofollow">成人小說</A>,<A HREF="http://www.ing199.net/007" REL="nofollow">成人文章</A>,<A HREF="http://www.ing199.net/008" REL="nofollow">成人圖片區</A>,<A HREF="http://www.ing199.net/009" REL="nofollow">免費成人影片</A>,<A HREF="http://www.ing199.net/010" REL="nofollow">成人遊戲</A>,<A HREF="http://www.ing199.net/011" REL="nofollow">微風成人</A>,<A HREF="http://www.ing199.net/012" REL="nofollow">愛情公寓</A>,<A HREF="http://www.ing199.net/013" REL="nofollow">情色</A>,<A HREF="http://www.ing199.net/014" REL="nofollow">情色貼圖</A>,<A HREF="http://www.ing199.net/015" REL="nofollow">情色文學</A>,<A HREF="http://www.ing199.net/016" REL="nofollow">情色交友</A>,<A HREF="http://www.ing199.net/017" REL="nofollow">色情聊天室</A>,<A HREF="http://www.ing199.net/018" REL="nofollow">色情小說</A>,<A HREF="http://www.ing199.net/019" REL="nofollow">一葉情貼圖片區</A>,<A HREF="http://www.ing199.net/020" REL="nofollow">情色小說</A>,<A HREF="http://www.ing199.net/021" REL="nofollow">色情</A>,<A HREF="http://www.ing199.net/022" REL="nofollow">寄情築園小遊戲</A>,<A HREF="http://www.ing199.net/023" REL="nofollow">色情遊戲</A>,<A HREF="http://www.ing199.net/024" REL="nofollow">情色視訊</A>,<A HREF="http://www.ing199.net/025" REL="nofollow">情色電影</A>,<A HREF="http://www.ing199.net/026" REL="nofollow">aio交友愛情館</A>,<A HREF="http://www.ing199.net/027" REL="nofollow">言情小說</A>,<A HREF="http://www.ing199.net/028" REL="nofollow">愛情小說</A>,<A HREF="http://www.ing199.net/029" REL="nofollow">色情A片</A>,<A HREF="http://www.ing199.net/030" REL="nofollow">情色論壇</A>,<A HREF="http://www.ing199.net/031" REL="nofollow">色情影片</A>,<A HREF="http://www.ing199.net/032" REL="nofollow">視訊聊天室</A>,<A HREF="http://www.ing199.net/033" REL="nofollow">免費視訊聊天</A>,<A HREF="http://www.ing199.net/034" REL="nofollow">免費視訊</A>,<A HREF="http://www.ing199.net/035" REL="nofollow">視訊美女</A>,<A HREF="http://www.ing199.net/036" REL="nofollow">視訊交友</A>,<A HREF="http://www.ing199.net/037" REL="nofollow">視訊聊天</A>,<A HREF="http://www.ing199.net/038" REL="nofollow">免費視訊聊天室</A>,<A HREF="http://www.ing199.net/039" REL="nofollow">AIO</A>,<A HREF="http:/www.ing199.net/040" REL="nofollow">a片下載</A>,<A HREF="http://www.ing199.net/041" REL="nofollow">aV</A>,<A HREF="http://www.ing199.net/042" REL="nofollow">av片</A>,<A HREF="http://www.ing199.net/043" REL="nofollow">A漫</A>,<A HREF="http://www.ing199.net/044" REL="nofollow">av dvd</A>,<A HREF="http://www.ing199.net/045" REL="nofollow">av成人網</A>,<A HREF="http://www.ing199.net/046" REL="nofollow">聊天室</A>,<A HREF="http://www.ing199.net/047" REL="nofollow">成人論壇</A>,<A HREF="http://www.ing199.net/048" REL="nofollow">本土自拍</A>,<A HREF="http://www.ing199.net/049" REL="nofollow">自拍</A>,<A HREF="http://www.ing199.net/050" REL="nofollow">A片</A>,<A HREF="http://www.show688.net/shop/index.php?wid=sexy2222" REL="nofollow">情境坊歡愉用品</A>,<A HREF="http://www.show688.net/shop/index.php?wid=twjason" REL="nofollow">情趣用品</A>,<A HREF="http://www.show688.net/shop/index.php?wid=sexy688" REL="nofollow">情人節禮物</A>,<A HREF="http://www.show688.net/shop/index.php?wid=sexy688" REL="nofollow">情人節</A>,<A HREF="http://show688.net/shop/index.php?wid=ryan009" REL="nofollow">情惑用品性易購</A>,<A HREF="http://show688.net/shop/index.php?wid=ryan025" REL="nofollow">生日禮物</A>,<A HREF="http://show688.net/shop//index.php?wid=ryan041" REL="nofollow">保險套</A>,<A HREF="http://show688.net/shop/index.php?wid=ryan28" REL="nofollow">A片</A>,<A HREF="http://120372.258rr.com/" REL="nofollow">情色</A>,<A HREF="http://120376.258tt.com/" REL="nofollow">情色交友</A>,<A HREF="http://120377.258vr.com/" REL="nofollow">色情聊天室</A>,<A HREF="http://120379.258ww.com/" REL="nofollow">一葉情貼圖片區</A>,<A HREF="http://120380.258pp.com/" REL="nofollow">情色小說</A>,<A HREF="http://120383.258rv.com/" REL="nofollow">情色視訊</A>,<A HREF="http://120384.258s.com/" REL="nofollow">情色電影</A>,<A HREF="http://120388.258ww.com/" REL="nofollow">辣妹視訊</A>,<A HREF="http://120389.258ww.com/" REL="nofollow">視訊聊天室</A>,<A HREF="http://120390.258pp.com/" REL="nofollow">免費視訊聊天</A>,<A HREF="http://120391.258ps.com/" REL="nofollow">免費視訊</A>,,<A HREF="http://120396.258tt.com/" REL="nofollow">視訊聊天</A>,<A HREF="http://120397.258vr.com/" REL="nofollow">免費視訊聊天室</A>,<A HREF="http://120398.258ww.com/" REL="nofollow">情人視訊網</A>,<A HREF="http://120400.258pp.com/" REL="nofollow">視訊交友90739</A>,<A HREF="http://120402.258rr.com/" REL="nofollow">成人交友</A>,<A HREF="http://120403.258rv.com/" REL="nofollow">美女交友</A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#178837193502357885" title="comment permalink">November 6, 2008 at 2:25 PM</a>
+	  <span class="item-control blog-admin pid-1212550236"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=178837193502357885" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="5286640750873312217"><a name="5286640750873312217"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>+<A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">runescape money</A> <A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">runescape gold</A>   <A HREF="http://www.runescapemoney-runescapegold.cn" REL="nofollow">runescape money</A> <A HREF="http://www.runescapemoney-runescapegold.cn" REL="nofollow">buy runescape gold</A> <A HREF="http://www.runescapemoney-runescapegold.cn" REL="nofollow">buy runescape money</A> <A HREF="http://www.runescape2store.com" REL="nofollow">runescape money</A> <A HREF="http://www.runescape2store.com" REL="nofollow">runescape gold</A> <A HREF="http://www.vgoldsupply.com" REL="nofollow">wow power leveling</A> <A HREF="http://www.vgoldsupply.com" REL="nofollow">wow powerleveling</A> <A HREF="http://www.vgoldsupply.com" REL="nofollow">Warcraft Power Leveling</A> <A>Warcraft PowerLeveling</A> <A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">buy runescape gold</A> <A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">buy runescape money</A> <A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">runescape items</A><A HREF="http://www.vgoldseller.com/runescape-runescape-accounts-c-599_988.html" REL="nofollow">runescape accounts</A> <A HREF="http://www.vgoldseller.com/runescape-c-599.html" REL="nofollow">runescape gp</A> <A HREF="http://www.vgoldsupply.com/dofus-c-1054.html" REL="nofollow">dofus kamas</A> <A HREF="http://www.vgoldsupply.com/dofus-c-1054.html" REL="nofollow">buy dofus kamas</A> <A HREF="http://www.vgoldseller.com/guild-wars-c-389.html" REL="nofollow">Guild Wars Gold</A> <A HREF="http://www.vgoldseller.com/guild-wars-c-389.html" REL="nofollow">buy Guild Wars Gold</A> <A HREF="http://www.buylotrogold.org" REL="nofollow">lotro gold</A> <A HREF="http://www.buylotrogold.org" REL="nofollow">buy lotro gold</A> <A HREF="http://www.buy-lotro-gold.cn" REL="nofollow">lotro gold</A> <A HREF="http://www.buy-lotro-gold.cn" REL="nofollow">buy lotro gold</A> <A HREF="http://www.vgoldseller.com/lord-rings-onlineus-c-975.html" REL="nofollow">lotro gold</A> <A HREF="http://www.vgoldseller.com/lord-rings-onlineus-c-975.html" REL="nofollow">buy lotro gold</A> <A HREF="http://www.800millions.com" REL="nofollow">runescape money</A> <A HREF="http://www.trainrunescape.com" REL="nofollow">runescape power leveling</A> <A HREF="http://www.runescape2vip.cn" REL="nofollow">runescape money</A> <A HREF="http://www.runescape2vip.cn" REL="nofollow">runescape gold</A> <A HREF="http://www.buydofuskamas.com" REL="nofollow">dofus kamas</A> <A HREF="http://www.runescape4money.net" REL="nofollow">cheap runescape money</A> <A HREF="http://www.runescape4money.net" REL="nofollow">cheap runescape gold</A> <A HREF="http://www.vgoldseller.com/hellgate-london-c-1102.html" REL="nofollow">Hellgate Palladium</A> <A HREF="http://www.vgoldseller.com/hellgate-london-c-1102.html" REL="nofollow">Hellgate London Palladium</A> <A HREF="http://www.vgoldseller.com/hellgate-london-c-1102.html" REL="nofollow">Hellgate money</A> <A HREF="http://www.vgoldseller.com/tabula-rasa-c-1107.html" REL="nofollow">Tabula Rasa gold</A> <A HREF="http://www.vgoldseller.com/tabula-rasa-c-1107.html" REL="nofollow">tabula rasa money</A> <A HREF="http://www.vgoldseller.com/tabula-rasa-c-1107.html" REL="nofollow">Tabula Rasa Credit</A> <A HREF="http://www.vgoldseller.com/tabula-rasa-c-1107.html" REL="nofollow">Tabula Rasa Credits</A> <A HREF="http://www.vgoldseller.com/hellgate-london-c-1102.html" REL="nofollow">Hellgate gold</A> <A HREF="http://www.vgoldseller.com/hellgate-london-c-1102.html" REL="nofollow">Hellgate London gold</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">wow power leveling</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">wow powerleveling</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">Warcraft PowerLeveling</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">Warcraft Power Leveling</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">World of Warcraft PowerLeveling</A> <A HREF="http://www.wow-power-leveling.net" REL="nofollow">World of Warcraft Power Leveling</A> <A HREF="http://www.vgoldseller.com/power_runescape.php" REL="nofollow">runescape power leveling</A> <A HREF="http://www.vgoldseller.com/power_runescape.php" REL="nofollow">runescape powerleveling</A> <A HREF="http://www.vgoldseller.com/eve-online-c-892.html" REL="nofollow">eve isk</A> <A HREF="http://www.vgoldseller.com/eve-online-c-892.html" REL="nofollow">eve online isk</A> <A HREF="http://www.vgoldsupply.com/eve-online-c-1191.html" REL="nofollow">eve isk</A> <A HREF="http://www.vgoldsupply.com/eve-online-c-1191.html" REL="nofollow">eve online isk</A> <A HREF="http://www.vgoldseller.com/tibia-c-894.html" REL="nofollow">tibia gold</A> <A HREF="http://www.vgoldseller.com/fiesta-c-896.html" REL="nofollow">Fiesta Silver</A> <A HREF="http://www.vgoldseller.com/fiesta-c-896.html" REL="nofollow">Fiesta Gold</A> <BR/><A HREF="http://www.vgoldseller.com/age-of-conan-c-1216.html/fiesta-c-896.html" REL="nofollow">Age of Conan Gold</A><BR/><A HREF="http://www.vgoldseller.com/age-of-conan-c-1216.html/fiesta-c-896.html" REL="nofollow">buy Age of Conan Gold</A><BR/><A HREF="http://www.vgoldseller.com/age-of-conan-c-1216.html/fiesta-c-896.html" REL="nofollow">aoc gold </A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#5286640750873312217" title="comment permalink">December 22, 2008 at 11:47 PM</a>
+	  <span class="item-control blog-admin pid-1724076584"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=5286640750873312217" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7649944538213279934"><a name="7649944538213279934"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><B><A HREF="http://www.dofus.cc" REL="nofollow">dofus</A></B><BR/><B><A HREF="http://www.dofus.cc" REL="nofollow">dofus kamas</A></B><BR/><B><A HREF="http://www.dofus.us" REL="nofollow">dofus kamas</A></B><BR/><B><A HREF="http://www.dofus.us" REL="nofollow">dofus</A></B><BR/><B><A HREF="http://www.lotro-gold.eu" REL="nofollow">lotro</A></B><BR/><B><A HREF="http://www.lotro-gold.eu" REL="nofollow">lotro gold</A></B><BR/><B><A HREF="http://www.lotro-gold.eu" REL="nofollow">buy lotro gold</A></B><BR/><B><A HREF="http://www.lotro-gold.eu" REL="nofollow">cheap lotro gold</A></B><BR/><B><A HREF="http://www.lotrogold.us" REL="nofollow">lotro</A></B><BR/><B><A HREF="http://www.lotrogold.us" REL="nofollow">lotro gold</A></B><BR/><B><A HREF="http://www.lotrogold.us" REL="nofollow">buy lotro gold</A></B><BR/><B><A HREF="http://www.guild-wars-online.com" REL="nofollow">guild wars</A></B><BR/><B><A HREF="http://www.guild-wars-online.com" REL="nofollow">guild wars gold</A></B><BR/><B><A HREF="http://www.guild-wars-online.com" REL="nofollow">buy guild wars gold</A></B><BR/><B><A HREF="http://www.guildwars.cc" REL="nofollow">guild wars</A></B><BR/><B><A HREF="http://www.guildwars.cc" REL="nofollow">guild wars gold</A></B><BR/><B><A HREF="http://www.guildwars.cc" REL="nofollow">buy guild wars gold</A></B><BR/><B><A HREF="http://www.guild-wars-money.com" REL="nofollow">guild wars</A></B><BR/><B><A HREF="http://www.guild-wars-money.com" REL="nofollow">guild wars gold</A></B><BR/><B><A HREF="http://www.guild-wars-money.com" REL="nofollow">buy guild wars gold</A></B><BR/><B><A HREF="http://www.maple-story.org" REL="nofollow">maplestory mesos</A></B><BR/><B><A HREF="http://www.maple-story.org" REL="nofollow">maple story mesos</A></B><BR/><B><A HREF="http://www.maple-story.org" REL="nofollow">maple story</A></B><BR/><B><A HREF="http://www.msmesos.eu" REL="nofollow">maple story</A></B><BR/><B><A HREF="http://www.msmesos.eu" REL="nofollow">maple story mesos</A></B><BR/><B><A HREF="http://www.msmesos.eu" REL="nofollow">maplestory mesos</A></B><BR/><B><A HREF="http://www.maple-story-mesos.com" REL="nofollow">maple story</A></B><BR/><B><A HREF="http://www.maple-story-mesos.com" REL="nofollow">maple story mesos</A></B><BR/><B><A HREF="http://www.maple-story-mesos.com" REL="nofollow">maplestory mesos</A></B><BR/><B><A HREF="http://www.runescape2money.com" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescape2money.com" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.runescape2money.com" REL="nofollow">cheap runescape gold</A></B><BR/><B><A HREF="http://www.runescape2money.com" REL="nofollow">buy runescape gold</A></B><BR/><B><A HREF="http://www.runescape2money.com" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.runescape2money.eu" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescape2money.eu" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.runescape2money.eu" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.runescape-money.eu" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescape-money.eu" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.runescape-money.eu" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.runescape-money.eu" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.runescapemoney.eu" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescapemoney.eu" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.runescapemoney.eu" REL="nofollow">cheap runescape gold</A></B><BR/><B><A HREF="http://www.runescapemoney.eu" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.runescapemoney.eu" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.rs-golds.com" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.rs-golds.com" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.rs-golds.com" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.rs-golds.com" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescape4money.cn" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.runescape4money.cn" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.runescape4money.cn" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.runescape4money.cn" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">cheap runescape gold</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">buy runescape gold</A></B><BR/><B><A HREF="http://www.rs2-gold.com" REL="nofollow">buy runescape money</A></B><BR/><B><A HREF="http://www.rs2-money.com" REL="nofollow">runescape</A></B><BR/><B><A HREF="http://www.rs2-money.com" REL="nofollow">runescape gold</A></B><BR/><B><A HREF="http://www.rs2-money.com" REL="nofollow">runescape money</A></B><BR/><B><A HREF="http://www.rs2-money.com" REL="nofollow">buy runescape money</A></B></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7649944538213279934" title="comment permalink">January 19, 2009 at 12:47 AM</a>
+	  <span class="item-control blog-admin pid-208316729"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7649944538213279934" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="6980522580390175204"><a name="6980522580390175204"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/07724366400193514674" rel="nofollow">buy wow gold</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>WoW shares many <A HREF="http://www.itemchannel.com/" REL="nofollow">wow gold</A> of its features with previously launched games. Essentially, you battle with monsters and traverse the countryside, by yourself or as a team, find challenging tasks, and go on to higher <A HREF="http://www.gold4power.com/" REL="nofollow"> cheap wow gold </A> levels as you gain skill and experience. In the course of your journey, you will be gaining new powers that are increased as your skill rating goes up. All the same, in terms of its features and quality, that is a ture stroy for this.WoW is far ahead of all other games of the genre the <A HREF="http://www.gamelevelup.com/" REL="nofollow">wow power leveling</A> game undoubtedly is in a league of its own and playing it is another experience altogether.[<A HREF="http://www.wow7gold.net/" REL="nofollow">wow7gold</A>]<BR/>Even though WoW is a <A HREF="http://www.gold4power.com/buy-gold/" REL="nofollow">wow gold for sale </A> rather complicated game, the controls and interface are done in <A HREF="http://www.bestwarhammer.com/" REL="nofollow"> buy warhammer gold</A> such a way that you don't feel the complexity. A good feature of the game is that it <A HREF="http://www.itemstores.com/" REL="nofollow">buy wow items</A> does not put off people with lengthy manuals. The instructions cannot be simpler and the pop up tips can help you start playing the game <A HREF="http://www.itemchannel.com/" REL="nofollow"> world of warcraft gold </A> immediately. If on the other hand, you need a detailed manual, the <A HREF="http://www.fastgg.net/" REL="nofollow">fastgg</A>instructions are there for you to access.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#6980522580390175204" title="comment permalink">February 9, 2009 at 3:54 AM</a>
+	  <span class="item-control blog-admin pid-79398924"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=6980522580390175204" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="3726934945321862001"><a name="3726934945321862001"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/14068165853466347163" rel="nofollow">wooaini</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.tongmiji.com/" REL="nofollow">铜米机</A><BR/><A HREF="http://www.csybkj.cn/index.asp" REL="nofollow">碳雕</A><BR/><A HREF="http://www.csybkj.cn/" REL="nofollow">炭雕</A><BR/><A HREF="http://www.csybkj.cn/" REL="nofollow">活性炭</A><BR/><A HREF="http://www.csybkj.cn/" REL="nofollow">活性炭雕</A><BR/><A HREF="http://www.csybkj.cn/index.asp" REL="nofollow">空气净化产品</A><BR/><A HREF="http://www.bjhxnz.cn/" REL="nofollow">好想你枣</A><BR/><A HREF="http://www.bjhxnz.cn/" REL="nofollow">北京好想你枣</A><BR/><A HREF="http://www.dczywh.com/" REL="nofollow">网站建设</A><BR/><A HREF="http://www.dczywh.com/" REL="nofollow">网站推广</A><BR/><A HREF="http://www.dczywh.com/ssyh.html" REL="nofollow">googel左侧优化</A><BR/><A HREF="http://www.dczywh.com/" REL="nofollow">googel左侧推广</A><BR/><A HREF="http://www.dczywh.com/ssyh.html" REL="nofollow">搜索引擎优化</A><BR/><A HREF="http://www.hebimd.com/cp4.htm" REL="nofollow">仓壁振动器</A><BR/><A HREF="http://www.hebimd.com/cp1.htm" REL="nofollow">给料机</A><BR/><A HREF="http://www.vtachina.com/cp2.asp" REL="nofollow">分子蒸馏</A><BR/><A HREF="http://www.vtachina.com/cp3.asp" REL="nofollow">短程蒸馏</A><BR/><A HREF="http://www.vtachina.com/cp4.asp" REL="nofollow">薄膜蒸发器</A><BR/><A HREF="http://www.vtachina.com/haocai.asp" REL="nofollow">导热油</A> <BR/><A HREF="http://www.vtachina.com/haocai.asp" REL="nofollow">真空泵油</A><BR/><A HREF="http://www.zjecho.com/" REL="nofollow">胎毛笔</A><BR/><A HREF="http://www.zjecho.com/" REL="nofollow">手足印</A><BR/><A HREF="http://www.zjecho.com/" REL="nofollow">婴儿纪念品</A><BR/><A HREF="http://www.zjecho.com/" REL="nofollow">婴幼儿纪念品</A><BR/><A HREF="http://www.58hz.com/" REL="nofollow">园林机械</A><BR/><A HREF="http://www.58hz.com/web_cn/cpingji.html" REL="nofollow">草坪机</A><BR/><A HREF="http://www.58hz.com/web_cn/youju.html" REL="nofollow">油锯</A><BR/><A HREF="http://www.58hz.com/web_cn/shougeji.html" REL="nofollow">小型收割机</A><BR/><A HREF="http://www.58hz.com/web_cn/shougeji.html" REL="nofollow">收割机</A><BR/><A HREF="http://www.58hz.com/web_cn/geguanji.html" REL="nofollow">割灌机</A><BR/><A HREF="http://www.58hz.com/web_cn/gecaoji.html" REL="nofollow">割草机</A><BR/><A HREF="http://www.58hz.com/web_cn/penwuqi.html" REL="nofollow">电动喷雾器</A><BR/><A HREF="http://www.58hz.com/web_cn/dizuan.html" REL="nofollow">地钻</A><BR/><A HREF="http://www.58hz.com/web_cn/caichaji.html" REL="nofollow">采茶机</A><BR/><A HREF="http://hi.baidu.com/piaoren2008" REL="nofollow">飘人|飘人2008|云淡风清</A><BR/><A HREF="http://www.atgj.cn" REL="nofollow">铣刀</A><BR/><A HREF="http://www.zylxedu.cn" REL="nofollow">意大利留学</A><BR/><A HREF="http://www.zylxedu.cn" REL="nofollow">留学意大利</A><BR/><A HREF="http://www.blue-bloodpoledance.com/ggw1.html" REL="nofollow">钢管舞</A><BR/><A HREF="http://www.blue-bloodpoledance.com/index.html" REL="nofollow">钢管舞培训</A><BR/><A HREF="http://www.blue-bloodpoledance.com/index.html" REL="nofollow">北京钢管舞</A><BR/><A HREF="http://www.blue-bloodpoledance.com/ggw2.html" REL="nofollow">爵士舞</A><BR/><A HREF="http://www.blue-bloodpoledance.com/index.html" REL="nofollow">北京音皇国际</A><BR/><A HREF="http://www.kexinys.com/" REL="nofollow">印刷厂</A><BR/><A HREF="http://www.cwb518.com/3.asp" REL="nofollow">油锯</A><BR/><A HREF="http://www.cwb518.com/8.asp" REL="nofollow">割草机</A><BR/><A HREF="http://www.cwb518.com/9.asp" REL="nofollow">绿篱机</A><BR/><A HREF="http://www.cwb518.com/6.asp" REL="nofollow">风力灭火机</A> <BR/><A HREF="http://www.zylxedu.com" REL="nofollow">留学意大利</A><BR/><A HREF="http://www.zylxedu.com" REL="nofollow">意大利留学</A><BR/><A HREF="http://www.bjdcjh.cn/index.htm" REL="nofollow">好日子小吃车</A><BR/><A HREF="http://www.bjdcjh.cn/index.htm" REL="nofollow">好日子烧烤小吃车</A><BR/><A HREF="http://www.bjdcjh.cn/index.htm" REL="nofollow">好日子多功能小吃车</A><BR/><A HREF="http://www.bjdcjh.cn/index.htm" REL="nofollow">好日子烧烤车</A><BR/><A HREF="http://www.inductionchina.com/zpgy.asp" REL="nofollow">中频感应熔炼锻造设备</A><BR/><A HREF="http://www.inductionchina.com/gpgy.asp" REL="nofollow">高频感应加热钎焊设备</A><BR/><A HREF="http://www.wuxijinfeng.cn/product.asp" REL="nofollow">保护膜</A><BR/><A HREF="http://www.foguanggefoju.com/index.html" REL="nofollow">佛具</A> <BR/><A HREF="http://www.ls122.com/main/index.asp" REL="nofollow">律师事务所</A><BR/><A HREF="http://www.ls122.com/main/index.asp" REL="nofollow">北京律师事务所</A><BR/><A HREF="http://www.ls122.com/main/index.asp" REL="nofollow">法律咨询</A><BR/><A HREF="http://www.ls122.com/main/index.asp" REL="nofollow">北京律师</A><BR/><A HREF="http://www.ls122.com/main/index.asp" REL="nofollow">北京法律咨询</A><BR/><A HREF="http://www.bjxcc.com/index.html" REL="nofollow">小吃车</A><BR/><A HREF="http://www.bjxcc.com/index.html" REL="nofollow">多功能小吃车</A><BR/><A HREF="http://www.bjxcc.com/index.html" REL="nofollow">烧烤小吃车</A><BR/><A HREF="http://www.bjxcc.com/index.html" REL="nofollow">烧烤车</A><BR/><A HREF="http://www.langqi.com.cn/" REL="nofollow">拓展训练</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">水泥艺术围栏</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">水泥艺术围栏设备</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">水泥艺术围栏机械</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">水泥栅栏设备</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">艺术护栏</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">艺术栏杆</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">环保艺术围栏</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">环保围栏</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">环保围栏机械</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">环保围栏设备</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">彩色艺术围栏</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">花瓶柱</A> <BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">阳台柱</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">阳台护栏设备</A><BR/><A HREF="http://www.bjlibo.cn/index.asp" REL="nofollow">阳台护栏</A> <BR/><A HREF="http://www.linobearing.com/pro2-1.htm" REL="nofollow">塑料轴承</A><BR/><A HREF="http://www.linobearing.com/tczc.html" REL="nofollow">陶瓷轴承</A><BR/><A HREF="http://www.zubon.com.cn/zubon/info.asp?id=187" REL="nofollow">破碎镐</A><BR/><A HREF="http://www.zubon.com.cn/zubon/xibaoji.asp" REL="nofollow">铣刨机</A><BR/><A HREF="http://www.chinavisittour.com" REL="nofollow">china tours</A><BR/><A HREF="http://www.chinavisittour.com" REL="nofollow">china travel</A><BR/><A HREF="http://www.chinavisittour.com" REL="nofollow">china tour packages</A><BR/><A HREF="http://www.chinavisittour.com" REL="nofollow">tibet tour</A><BR/><A HREF="http://www.dczywh.com/ycsb.htm" REL="nofollow">泳池设备</A><BR/><A HREF="http://www.dczywh.com/snsb.htm" REL="nofollow">桑拿设备</A><BR/><A HREF="http://www.wuxial.com/" REL="nofollow">高低温试验箱</A><BR/><A HREF="http://www.wuxial.com/" REL="nofollow">盐雾试验箱</A><BR/><A HREF="http://www.dczywh.com/yljx/gecaoji.html" REL="nofollow">割草机</A><BR/><A HREF="http://www.dczywh.com/yljx/flmhj.html" REL="nofollow">风力灭火机</A><BR/><A HREF="http://www.dczywh.com/yljx/llj.html" REL="nofollow">绿篱机</A><BR/><A HREF="http://www.syhyyl.com.cn/show2.html" REL="nofollow">输液轨道</A> <BR/><A HREF="http://www.syhyyl.com.cn/show1.html" REL="nofollow">输液吊架</A> <BR/><A HREF="http://www.syhyyl.com.cn/show1.html" REL="nofollow">轨道输液架</A> <BR/><A HREF="http://www.syhyyl.com.cn/show1.html" REL="nofollow">医用吊架</A> <BR/><A HREF="http://www.syhyyl.com.cn/show1.html" REL="nofollow">天轨输液吊杆</A><BR/><A HREF="http://www.syhyyl.com.cn/show3.html" REL="nofollow">医用扶手</A><BR/><A HREF="http://www.syhyyl.com.cn/show1.html" REL="nofollow">输液架</A> <BR/><A HREF="http://www.syhyyl.com.cn/show5.html" REL="nofollow">设备带</A> <BR/><A HREF="http://www.syhyyl.com.cn/show5.html" REL="nofollow">治疗带</A> <BR/><A HREF="http://www.syhyyl.com.cn/show5.html" REL="nofollow">中心供氧</A><BR/><A HREF="http://dongming2009.blog.sohu.com/103344642.html" REL="nofollow">博客1</A><BR/><A HREF="http://cid-e7e58a1cf5c59ea7.spaces.live.com/default.aspx" REL="nofollow">博客2</A><BR/><A HREF="http://dongming2009.blogcn.com/diary,20786888.shtml" REL="nofollow">博客3</A><BR/><A HREF="http://blog.163.com/dong_ming_2009/" REL="nofollow">博客4</A><BR/><A HREF="http://blog.china.alibaba.com/blog/dongming2009dongming.html" REL="nofollow">博客5</A><BR/><A HREF="http://dongming2009dong.blog.xunlei.com/" REL="nofollow">博客6</A><BR/><A HREF="http://blog.csdn.net/dongming2009" REL="nofollow">博客7</A><BR/><A HREF="http://blog.lanyue.com/blog/user.asp?id=752558" REL="nofollow">博客8</A><BR/><A HREF="http://hi.baidu.com/maxin8358" REL="nofollow">博客9</A><BR/><A HREF="http://blog.tom.com/seo_seo/" REL="nofollow">博客10</A><BR/><A HREF="http://salesroom.bokee.com" REL="nofollow">博客11</A><BR/><A HREF="http://hi.baidu.com/haoguang8358" REL="nofollow">博客12</A><BR/><A HREF="http://blog.sina.com.cn/haoguang8358" REL="nofollow">博客13</A><BR/><A HREF="http://hexun.com/haoguang8358" REL="nofollow">博客14</A><BR/><A HREF="http://adlist.blogcn.com" REL="nofollow">博客15</A><BR/><A HREF="http://blog.stnn.cc/dongming20/Efp_Blog.aspx" REL="nofollow">博客16</A><BR/><A HREF="http://piaoren2008.blog.sohu.com/" REL="nofollow">博客0</A><BR/><A HREF="http://blog.sina.com.cn/liushengbin29013642" REL="nofollow">博客刘</A><BR/><A HREF="http://www.djpmseo.cn/" REL="nofollow">网站建设</A><BR/><A HREF="http://www.djpmseo.cn/" REL="nofollow">网站推广</A><BR/><A HREF="http://www.djpmseo.cn/ssyh.html" REL="nofollow">googel左侧优化</A><BR/><A HREF="http://www.djpmseo.cn/" REL="nofollow">googel左侧推广</A><BR/><A HREF="http://www.djpmseo.cn/ssyh.html" REL="nofollow">搜索引擎优化</A><BR/><A HREF="http://www.dgtghj.com/about.htm" REL="nofollow">铜铝连接管</A><BR/><A HREF="http://www.dgtghj.com/product-15.htm" REL="nofollow">铜铝连接管焊机</A><BR/><A HREF="http://www.mssxcc.com" REL="nofollow">千古一香小吃车</A><BR/><A HREF="http://www.mssxcc.com" REL="nofollow">千古一香烧烤小吃车</A><BR/><A HREF="http://www.mssxcc.com" REL="nofollow">千古一香多功能小吃车</A><BR/><A HREF="http://www.mssxcc.com" REL="nofollow">千古一香无烟烧烤小吃车</A><BR/><A HREF="http://www.bj518518.com/" REL="nofollow">搬家公司</A><BR/><A HREF="http://www.bj518518.com/" REL="nofollow">北京搬家公司</A><BR/><A HREF="http://www.bj518518.com/chaoyangbj.htm" REL="nofollow">北京朝阳区搬家公司</A><BR/><A HREF="http://www.bj518518.com/tongxianbj.htm" REL="nofollow">通州区搬家公司</A><BR/><A HREF="http://www.bj518518.com/tongxianbj.htm" REL="nofollow">北京通州区搬家</A><BR/><A HREF="http://www.bj518518.com/haidianbj.htm" REL="nofollow">海淀区搬家公司</A><BR/><A HREF="http://www.bj518518.com/fengtaibj.htm" REL="nofollow">北京市丰台搬家公司</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">冷缠防腐胶带</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">环氧煤沥青冷缠带</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">防腐漆涂料</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">防腐材料</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">聚丙烯增强纤维防腐胶带</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">环氧富锌底漆</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">耐高温漆涂料</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">环氧树脂漆</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">环氧煤沥青</A><BR/><A HREF="http://www.dyltsj.com/" REL="nofollow">玻璃鳞片涂料胶泥</A><BR/><A HREF="http://www.bjzhjt.com/" REL="nofollow">机柜</A><BR/><A HREF="http://www.bjzhjt.com/" REL="nofollow">IBM机柜</A><BR/><A HREF="http://www.bjzhjt.com/" REL="nofollow">APC机柜</A><BR/><A HREF="http://www.bjzhjt.com/" REL="nofollow">VEOR机柜</A><BR/><A HREF="http://www.bjzhjt.com/" REL="nofollow">切换器</A><BR/><A HREF="http://www.xcc598.cn" REL="nofollow">好日子多功能小吃车</A><BR/><A HREF="http://www.xcc598.cn" REL="nofollow">好日子小吃车</A><BR/><A HREF="http://www.xcc598.cn" REL="nofollow">好日子烧烤小吃车</A><BR/><A HREF="http://www.xcc598.cn" REL="nofollow">北京好日子小吃车加盟</A><BR/><A HREF="http://www.bjjhysxcc.cn/index.html" REL="nofollow">好日子小吃车</A><BR/><A HREF="http://www.bjjhysxcc.cn/index.html" REL="nofollow">好日子多功能小吃车</A><BR/><A HREF="http://www.bjjhysxcc.cn/youshi.htm" REL="nofollow">一品香小吃车</A><BR/><A HREF="http://www.bjjhysxcc.cn/shebei.htm" REL="nofollow">千古一香小吃车</A><BR/><A HREF="http://www.book-cars.cn/" REL="nofollow">上海租车</A><BR/><A HREF="http://www.book-cars.cn/" REL="nofollow">上海汽车租赁</A><BR/><A HREF="http://www.book-cars.cn/" REL="nofollow">上海租车网</A><BR/><A HREF="http://www.pa1sheng.com/" REL="nofollow">平安保险北京</A><BR/><A HREF="http://www.pa1sheng.com/" REL="nofollow">北京平安保险</A><BR/><A HREF="http://www.yghyfx.com/scfx.asp" REL="nofollow">石材翻新</A><BR/><A HREF="http://www.yghyfx.com/scjj.asp" REL="nofollow">石材结晶</A><BR/><A HREF="http://www.yghyfx.com/scyh.asp" REL="nofollow">石材养护</A><BR/><A HREF="http://www.yanjingbanjia.cn/" REL="nofollow">搬家公司</A> <BR/><A HREF="http://www.yanjingbanjia.cn/" REL="nofollow">北京市搬家公司</A> <BR/><A HREF="http://www.yanjingbanjia.cn/html2/chaoyangbj.html" REL="nofollow">朝阳区搬家公司</A><BR/><A HREF="http://www.yanjingbanjia.cn/html2/tongzhoubj.html" REL="nofollow">通州搬家公司</A> <BR/><A HREF="http://www.yanjingbanjia.cn/html2/shunyibj.html" REL="nofollow">顺义搬家公司</A><BR/><A HREF="http://www.yanjingbanjia.cn/html2/yizhuangbj.html" REL="nofollow">亦庄搬家公司</A><BR/><A HREF="http://www.hbjxglass.com/product6.htm" REL="nofollow">玻璃喷砂机</A> <BR/><A HREF="http://www.hbjxglass.com/product6.htm" REL="nofollow">喷砂机</A> <BR/><A HREF="http://www.hbjxglass.com/" REL="nofollow">打砂机</A> <BR/><A HREF="http://www.hbjxglass.com/" REL="nofollow">玻璃机械</A><BR/><A HREF="http://www.51yinying.com/yzy_gcjj.htm" REL="nofollow">北京印刷</A><BR/><A HREF="http://www.51yinying.com/" REL="nofollow">北京印刷</A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#3726934945321862001" title="comment permalink">February 16, 2009 at 6:38 PM</a>
+	  <span class="item-control blog-admin pid-1029192592"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=3726934945321862001" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="3393258781226815045"><a name="3393258781226815045"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/02333189842068626499" rel="nofollow">buy wow gold</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>WoW shares many <A HREF="http://www.game4power.com/" REL="nofollow">wow gold</A> of its features with previously launched games. Essentially, you battle with monsters and traverse the countryside, by yourself or as a team, find challenging tasks, and go on to higher <A HREF="http://www.wowgoldone.com/" REL="nofollow"> cheap wow gold </A> levels as you gain skill and experience. In the course of your journey, you will be gaining new powers that are increased as your skill rating goes up. All the same, in terms of its features and quality, that is a ture stroy for this.WoW is far ahead of all other games of the genre the <A HREF="http://www.gamelevelup.com/" REL="nofollow">wow power leveling</A> game undoubtedly is in a league of its own and playing it is another experience altogether.<BR/><BR/>Even though WoW is a <A HREF="http://www.game4power.com/buy-gold" REL="nofollow">wow gold cheap </A> rather complicated game, the controls and interface are done in <A HREF="http://www.bestwarhammer.com/" REL="nofollow"> buy warhammer gold</A> such a way that you don't feel the complexity. A good feature of the game is that it <A HREF="http://www.itemstores.com/" REL="nofollow">buy wow items</A> does not put off people with lengthy manuals. The instructions cannot be simpler and the pop up tips can help you start playing the game <A HREF="http://www.itemchannel.com/" REL="nofollow"> buy cheap world of warcraft gold </A> immediately. If on the other hand, you need a detailed manual, the instructions are there for you to access. Buy wow gold in this site,good for you ,<A HREF="http://www.meinwowgold.com/" REL="nofollow">WoW Gold</A>, <A HREF="http://www.game4power.com/" REL="nofollow">BUY WOW GOLD</A>.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#3393258781226815045" title="comment permalink">February 20, 2009 at 10:15 PM</a>
+	  <span class="item-control blog-admin pid-1691815300"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=3393258781226815045" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="505019705240700083"><a name="505019705240700083"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/02333189842068626499" rel="nofollow">buy wow gold</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>WoW shares many <A HREF="http://www.game4power.com/" REL="nofollow">wow gold</A> of its features with previously launched games. Essentially, you battle with monsters and traverse the countryside, by yourself or as a team, find challenging tasks, and go on to higher <A HREF="http://www.wowgoldone.com/" REL="nofollow"> cheap wow gold </A> levels as you gain skill and experience. In the course of your journey, you will be gaining new powers that are increased as your skill rating goes up. All the same, in terms of its features and quality, that is a ture stroy for this.WoW is far ahead of all other games of the genre the <A HREF="http://www.gamelevelup.com/" REL="nofollow">wow power leveling</A> game undoubtedly is in a league of its own and playing it is another experience altogether.<BR/><BR/>Even though WoW is a <A HREF="http://www.game4power.com/buy-gold" REL="nofollow">wow gold cheap </A> rather complicated game, the controls and interface are done in <A HREF="http://www.bestwarhammer.com/" REL="nofollow"> buy warhammer gold</A> such a way that you don't feel the complexity. A good feature of the game is that it <A HREF="http://www.itemstores.com/" REL="nofollow">buy wow items</A> does not put off people with lengthy manuals. The instructions cannot be simpler and the pop up tips can help you start playing the game <A HREF="http://www.itemchannel.com/" REL="nofollow"> buy cheap world of warcraft gold </A> immediately. If on the other hand, you need a detailed manual, the instructions are there for you to access. Buy wow gold in this site,good for you ,<A HREF="http://www.meinwowgold.com/" REL="nofollow">WoW Gold</A>, <A HREF="http://www.game4power.com/" REL="nofollow">BUY WOW GOLD</A>.</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#505019705240700083" title="comment permalink">February 20, 2009 at 10:15 PM</a>
+	  <span class="item-control blog-admin pid-1691815300"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=505019705240700083" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7068713210595978771"><a name="7068713210595978771"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/01212469426056098697" rel="nofollow">game articles</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maple story mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maplestory mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maple story gold</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maple story gold</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maple story gold</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maple story gold</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maple story gold</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maple story gold</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maplestory gold</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maplestory gold</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maplestory gold</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maplestory gold</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maplestory gold</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maplestory gold</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maple story money</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maple story money</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maple story money</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maple story money</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maple story money</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maple story money</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maplestory money</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maplestory money</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maplestory money</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maplestory money</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maplestory money</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maplestory money</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">buy maple story mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">buy maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">buy maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">buy maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">buy maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">buy maplestory mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">buy maplestory mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maple story</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maple story</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maple story</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maple story</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maple story</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maple story</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maplestory</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maplestory</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maplestory</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maplestory</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maplestory</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maplestory</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">buy maple story mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">buy maple story mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">cheap mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">cheap mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">cheap mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">cheap mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">cheap mesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">cheap mesos</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">maple story shop</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">maple story shop</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">maple story shop</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">maple story shop</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">maple story shop</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">maple story shop</A><BR/><BR/><A HREF="http://www.cheap-msmesos.com/" REL="nofollow">cheap msmesos</A><BR/><A HREF="http://www.cheap-msmesos.com/index.html" REL="nofollow">cheap msmesos</A><BR/><A HREF="http://www.cheap-msmesos.com/buy_maplestory_mesos.html" REL="nofollow">cheap msmesos</A><BR/><A HREF="http://www.cheap-msmesos.com/why.html" REL="nofollow">cheap msmesos</A><BR/><A HREF="http://www.cheap-msmesos.com/contact.html" REL="nofollow">cheap msmesos</A><BR/><A HREF="http://www.cheap-msmesos.com/about.html" REL="nofollow">cheap msmesos</A><BR/><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell wow gold</A><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">wow gold</A><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell wow cd key</A><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">trade wow gold</A><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">wow gold trade</A><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/cd-key.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_us.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/sell_wow_gold_eu.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">wow trade</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">wow trade</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maple story mesos</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maple story mesos</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maplestory mesos</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maplestory mesos</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maple story gold</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maple story gold</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maple story money</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maple story money</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maplestory gold</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maplestory gold</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">sell maplestory money</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">sell maplestory money</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">maplestory trade</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">maplestory trade</A><BR/><BR/><A HREF="http://www.allgametrade.com/" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/sell_maple_story_mesos.html" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/index.html" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/sell_to_us.html" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/aboutus.html" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/FAQ.html" REL="nofollow">maple story trade</A><BR/><A HREF="http://www.allgametrade.com/sitemap.xml" REL="nofollow">maple story trade</A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7068713210595978771" title="comment permalink">February 22, 2009 at 10:18 PM</a>
+	  <span class="item-control blog-admin pid-489221727"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7068713210595978771" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7423687208934311067"><a name="7423687208934311067"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>^^ nice blog!! ^@^<BR/><BR/><A HREF="http://www.justdetective.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.justdetective.com/005index.htm" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.justdetective.com/006index.htm" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.885852.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.885852.com/fag.html" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.885852.com/equipment.html" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.885852.com/bzitem03.html" REL="nofollow" TITLE="感情挽回">感情挽回</A>,  <A HREF="http://www.885852.com/bzitem03.html" REL="nofollow" TITLE="婚姻挽回">婚姻挽回</A>,  <A HREF="http://www.885852.com/bzitem03.html" REL="nofollow" TITLE="挽回婚姻">挽回婚姻</A>,  <A HREF="http://www.885852.com/bzitem03.html" REL="nofollow" TITLE="挽回感情">挽回感情</A>,  <A HREF="http://www.885852.com/" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.gold007.net/page_01.html" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.gold007.net/page_05.html" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.gold007.net/page_03.html" REL="nofollow" TITLE="捉姦">捉姦</A>,  <A HREF="http://www.gold007.net/page_05.html" REL="nofollow" TITLE="徵信公司">徵信公司</A>,  <A HREF="http://www.gold007.net/page_04.html" REL="nofollow" TITLE="通姦">通姦</A>,  <A HREF="http://www.gold007.net/page_04.html" REL="nofollow" TITLE="通姦罪">通姦罪</A>,  <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="抓姦">抓姦</A>,  <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="抓猴">抓猴</A>,  <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="捉猴">捉猴</A>,  <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="捉姦">捉姦</A>,  <A HREF="http://www.885852.com/bzitem14.html" REL="nofollow" TITLE="監聽">監聽</A>,  <A HREF="http://www.885852.com/bzitem15.html" REL="nofollow" TITLE="調查跟蹤">調查跟蹤</A>,  <A HREF="http://www.885852.com/bzitem16.html" REL="nofollow" TITLE="反跟蹤">反跟蹤</A>,  <A HREF="http://www.885852.com/haw_tor/index.html" REL="nofollow" TITLE="外遇問題">外遇問題</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="捉姦">捉姦</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="女人徵信">女人徵信</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="女子徵信">女子徵信</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="外遇問題">外遇問題</A>,  <A HREF="http://www.gold007.net/ads.html" REL="nofollow" TITLE="女子徵信">女子徵信</A>,  <A HREF="http://www.gold007.net/ads.html" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="外遇">外遇</A>,   <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信網">徵信網</A>,   <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="外遇蒐證">外遇蒐證</A>,  <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="抓姦">抓姦</A>,  <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="抓猴">抓猴</A>,  <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="捉猴">捉猴</A>,  <A HREF="http://www.gold007.net/page_02_04.html" REL="nofollow" TITLE="調查跟蹤">調查跟蹤</A>,  <A HREF="http://www.gold007.net/page_02_04.html" REL="nofollow" TITLE="反跟蹤">反跟蹤</A>,  <A HREF="http://www.gold007.net/page_02_01.html" REL="nofollow" TITLE="感情挽回">感情挽回</A>,  <A HREF="http://www.gold007.net/page_02_01.html" REL="nofollow" TITLE="挽回感情">挽回感情</A>,  <A HREF="http://www.gold007.net/page_02_01.html" REL="nofollow" TITLE="婚姻挽回">婚姻挽回</A>,  <A HREF="http://www.gold007.net/page_02_01.html" REL="nofollow" TITLE="挽回婚姻">挽回婚姻</A>,  <A HREF="http://www.gold007.net/page_02_01.html" REL="nofollow" TITLE="外遇沖開">外遇沖開</A>,  <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="抓姦">抓姦</A>, <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="女子徵信">女子徵信</A>,   <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="外遇蒐證">外遇蒐證</A>,  <A HREF="http://www.885852.com/fag.html" REL="nofollow" TITLE="外遇">外遇</A>,  <A HREF="http://www.885852.com/fag.html" REL="nofollow" TITLE="通姦">通姦</A>,  <A HREF="http://www.885852.com/fag.html" REL="nofollow" TITLE="通姦罪">通姦罪</A>,  <A HREF="http://www.885852.com/fag.html" REL="nofollow" TITLE="贍養費">贍養費</A>,  <A HREF="http://www.daai007.org/" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.daai007.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="抓姦">抓姦</A>,   <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.cool007.org" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.cool007.org" REL="nofollow" TITLE="徵信公司">徵信公司</A>,   <A HREF="http://www.cool007.org" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.daai007.org" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.daai007.org" REL="nofollow" TITLE="徵信公司">徵信公司</A>,  <A HREF="http://www.daai007.org" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.honhai007.com.tw/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,  <A HREF="http://women.daai007.org" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,     <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="女人徵信">女人徵信</A>,  <A HREF="http://www.daai007.org/news.html" REL="nofollow" TITLE="外遇">外遇</A>  <BR/><BR/><A HREF="http://www.885852.com/about.html" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信網">徵信網</A>,   <A HREF="http://www.gold007.net/page_01.html" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="徵信網">徵信網</A>,   <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="外遇">外遇</A>,   <A HREF="http://www.honhai007.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.honhai007.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.gold007.net/page_02_02.html" REL="nofollow" TITLE="抓姦">抓姦</A>,  <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="徵信">徵信</A>,   <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="女人徵信">女人徵信</A>,   <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://%20www.cool007.org" REL="nofollow" TITLE="女人徵信社">女人徵信社</A>,   <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="外遇">外遇</A>,  <A HREF="http://www.885852.com/bzitem05.html" REL="nofollow" TITLE="抓姦">抓姦</A>,   <A HREF="http://www.cool007.org/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,   <A HREF="http://www.daai007.org/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.daai007.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.daai007.org/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,  <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://women.daai007.org/" REL="nofollow" TITLE="徵信公司">徵信公司</A>,   <A HREF="http://www.detectiveassist.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.detectiveassist.com.tw/equipment.html" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.gril-spy.com" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.123guess.com/cases.htm" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.thesmart007.com" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.thesmart007.com" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.asia006.com" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.asia006.com" REL="nofollow" TITLE="女人徵信社">女人徵信社</A>,   <A HREF="http://www.hotprivateeye.com" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.hotprivateeye.com" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.detectivedone.com.tw" REL="nofollow" TITLE="徵信社">徵信社</A>,   <A HREF="http://www.detectivedone.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.gold007.net/" REL="nofollow" TITLE="女子徵信社">女子徵信社</A>,   <A HREF="http://hotprivateeye.com/" REL="nofollow" TITLE="女子徵信社">女子徵信社</A>,  <A HREF="http://www.asia006.com/" REL="nofollow" TITLE="女子徵信社">女子徵信社</A>,  <A HREF="http://hotprivateeye.com/cases.html/" REL="nofollow" TITLE="女子徵信社">女子徵信社</A>, <A HREF="http://www.premiums007.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.premiums007.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.123guess.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.123guess.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.coffeetw.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.coffeetw.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.paradise007.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.paradise007.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.value007.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.value007.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.no1detective.co.in/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.no1detective.co.in/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.no1detective.hk/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.no1detective.hk/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.no1detective.us/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.no1detective.us/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.suredetective.org/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.suredetective.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.transdetective.org/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.transdetective.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.detectivehard.org/" REL="nofollow" TITLE="征信">征信</A>,  <A HREF="http://www.detectivehome.org/" REL="nofollow" TITLE="征信">征信</A>,  <A HREF="http://www.god007.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.god007.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.gril-spy.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.gril-spy.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.hellodetective.org/" REL="nofollow" TITLE="征信">征信</A>,  <A HREF="http://www.hellodetective.org/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.hellodetective.org/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.mydetective.ca/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.mydetective.ca/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.mydetective.ch/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.mydetective.ch/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.no1detective.com.cn/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.no1detective.com.cn/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.smart007.com/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.smart007.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.tool007.net/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.tool007.net/" REL="nofollow" TITLE="徵信社">徵信社</A>,  <A HREF="http://www.vip357.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>,  <A HREF="http://www.vip357.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>,</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7423687208934311067" title="comment permalink">March 2, 2009 at 7:33 PM</a>
+	  <span class="item-control blog-admin pid-1901409933"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7423687208934311067" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="7719547701553349092"><a name="7719547701553349092"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p>^^ nice blog!! thanks a lot! ^^<BR/><BR/><A HREF="http://www.taipei-detective.org.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.taipei-detective.org.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.taoyuan-detective.org.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.taoyuan-detective.org.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.taichung-detective.org.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.taichung-detective.org.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.kaohsiung-detective.org.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.kaohsiung-detective.org.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.domestic-violence.org.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.domestic-violence.org.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.daai007.com/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.daai007.com/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.asia-new.com.tw/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.asia-new.com.tw/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.daaidetective.com/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.daaidetective.com/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.cup007.com/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.cup007.com/" REL="nofollow" TITLE="徵信社">徵信社</A>, <A HREF="http://www.daai009.com/" REL="nofollow" TITLE="徵信">徵信</A>, <A HREF="http://www.daai009.com/" REL="nofollow" TITLE="徵信社">徵信社</A>,</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#7719547701553349092" title="comment permalink">March 2, 2009 at 7:35 PM</a>
+	  <span class="item-control blog-admin pid-620513661"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=7719547701553349092" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="5130588412996299518"><a name="5130588412996299518"></a>
+        <span style="line-height:16px" class="comment-icon anon-comment-icon"><img src="http://img2.blogblog.com/img/anon16-rounded.gif" alt="Anonymous" style="display:inline;" /></span>&nbsp;<span class="anon-comment-author">Anonymous</span> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.concubine.com.tw/" REL="nofollow">希</A><A HREF="http://www.joney.com.tw/" REL="nofollow">望</A><A HREF="http://www.affair.com.tw/" REL="nofollow">大</A><A HREF="http://detect.com.tw/" REL="nofollow">家</A><A HREF="http://truedetect.com.tw/" REL="nofollow">都</A><A HREF="http://true2detect.com.tw/" REL="nofollow">會</A><A HREF="http://true3detect.com.tw/" REL="nofollow">非</A><A HREF="http://www.female-credit.com.tw/" REL="nofollow">常</A><A HREF="http://www.female-credit.com.tw/" REL="nofollow">非</A><A HREF="http://www.selina-work.tw/" REL="nofollow">常</A><A HREF="http://www.credit-union.com.tw/" REL="nofollow">幸</A><A HREF="http://www.Urban-credit.com.tw/" REL="nofollow">福</A>~<A HREF="http://www.joney.com.tw/f-1.html" REL="nofollow">「朵</A><A HREF="http://www.joney.com.tw/p1.html" REL="nofollow">朵</A><A HREF="http://www.joney.com.tw/p2.html" REL="nofollow">小</A><A HREF="http://www.joney.com.tw/p3.html" REL="nofollow">語‧</A><A HREF="http://www.joney.com.tw/p4.html" REL="nofollow">優</A><A HREF="http://www.joney.com.tw/p5.html" REL="nofollow">美</A><A HREF="http://www.joney.com.tw/p6.html" REL="nofollow">的</A><A HREF="http://www.joney.com.tw/p7.html" REL="nofollow">眷</A><A HREF="http://www.joney.com.tw/p8.html" REL="nofollow">戀</A><A HREF="http://www.affair.com.tw/v1.html" REL="nofollow">在</A><A HREF="http://www.affair.com.tw/v2.html" REL="nofollow">這</A><A HREF="http://www.affair.com.tw/v3.html" REL="nofollow">個</A><A HREF="http://www.affair.com.tw/v4.html" REL="nofollow">世</A><A HREF="http://www.affair.com.tw/v5.html" REL="nofollow">界</A><A HREF="http://www.affair.com.tw/v6.html" REL="nofollow">上</A><A HREF="http://www.affair.com.tw/v7.html" REL="nofollow">，最</A><A HREF="http://www.affair.com.tw/v8.html" REL="nofollow">重</A><A HREF="http://www.affair.com.tw/v9.html" REL="nofollow">要</A><A HREF="http://www.affair.com.tw/v10.html" REL="nofollow">的</A><A HREF="http://detect.com.tw/u1.html" REL="nofollow">一件事</A><A HREF="http://detect.com.tw/u2.html" REL="nofollow">，就</A><A HREF="http://detect.com.tw/u3.html" REL="nofollow">是</A><A HREF="http://detect.com.tw/u4.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/u5.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/u6.html" REL="nofollow">愛</A><A HREF="http://detect.com.tw/u7.html" REL="nofollow">自</A><A HREF="http://detect.com.tw/u8.html" REL="nofollow">己</A><A HREF="http://detect.com.tw/u9.html" REL="nofollow">。好</A><A HREF="http://detect.com.tw/u10.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/u11.html" REL="nofollow">愛</A><A HREF="http://detect.com.tw/u12.html" REL="nofollow">自</A><A HREF="http://detect.com.tw/u13.html" REL="nofollow">己</A><A HREF="http://detect.com.tw/u14.html" REL="nofollow">，你</A><A HREF="http://true3detect.com.tw/u1.html" REL="nofollow">的</A><A HREF="http://true3detect.com.tw/u2.html" REL="nofollow">眼</A><A HREF="http://true3detect.com.tw/u3.html" REL="nofollow">睛</A><A HREF="http://true3detect.com.tw/u4.html" REL="nofollow">才</A><A HREF="http://detect.com.tw/u5.html" REL="nofollow">能</A><A HREF="http://detect.com.tw/u6.html" REL="nofollow">看</A><A HREF="http://detect.com.tw/u7.html" REL="nofollow">見</A><A HREF="http://true3detect.com.tw/u8.html" REL="nofollow">天</A><A HREF="http://true3detect.com.tw/1.html" REL="nofollow">空</A><A HREF="http://true3detect.com.tw/2.html" REL="nofollow">的</A><A HREF="http://true3detect.com.tw/3.html" REL="nofollow">美</A><A HREF="http://true3detect.com.tw/4.html" REL="nofollow">麗</A><A HREF="http://detect.com.tw/5.html" REL="nofollow">，</A><A HREF="http://detect.com.tw/6.html" REL="nofollow">耳</A><A HREF="http://true3detect.com.tw/7.html" REL="nofollow">朵</A><A HREF="http://true3detect.com.tw/8.html" REL="nofollow">才</A><A HREF="http://true3detect.com.tw/9.html" REL="nofollow">能</A><A HREF="http://true3detect.com.tw/10.html" REL="nofollow">聽</A><A HREF="http://true3detect.com.tw/11.html" REL="nofollow">見</A><A HREF="http://detect.com.tw/p7-2.html" REL="nofollow">山</A><A HREF="http://detect.com.tw/p7-1.html" REL="nofollow">水</A><A HREF="http://detect.com.tw/a.html" REL="nofollow">的</A><A HREF="http://detect.com.tw/b.html" REL="nofollow">清</A><A HREF="http://detect.com.tw/p1.html" REL="nofollow">音</A><A HREF="http://detect.com.tw/p5a.html" REL="nofollow">。</A><A HREF="http://detect.com.tw/p9.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/p9-1.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/p11-2.html" REL="nofollow">愛</A><A HREF="http://detect.com.tw/p11-1.html" REL="nofollow">自</A><A HREF="http://detect.com.tw/p1-1.html" REL="nofollow">己</A><A HREF="http://detect.com.tw/p11.html" REL="nofollow">，</A><A HREF="http://detect.com.tw/c.html" REL="nofollow">你</A><A HREF="http://detect.com.tw/d.html" REL="nofollow">才</A><A HREF="http://detect.com.tw/p10.html" REL="nofollow">能</A><A HREF="http://detect.com.tw/p12.html" REL="nofollow">體</A><A HREF="http://detect.com.tw/p13.html" REL="nofollow">會</A><A HREF="http://detect.com.tw/p5.html" REL="nofollow">所</A><A HREF="http://detect.com.tw/p7-2.html" REL="nofollow">有</A><A HREF="http://detect.com.tw/p5-2.html" REL="nofollow">美</A><A HREF="http://detect.com.tw/p5-1.html" REL="nofollow">好</A><A HREF="http://detect.com.tw/p5-3.html" REL="nofollow">的</A><A HREF="http://detect.com.tw/p5-4.html" REL="nofollow">東</A><A HREF="http://detect.com.tw/p3.html" REL="nofollow">西</A><A HREF="http://detect.com.tw/p4.html" REL="nofollow">，</A><A HREF="http://detect.com.tw/p6.html" REL="nofollow">所</A><A HREF="http://detect.com.tw/p6-1.html" REL="nofollow">有</A><A HREF="http://detect.com.tw/p8.html" REL="nofollow">的</A><A HREF="http://detect.com.tw/p16.html" REL="nofollow">文</A><A HREF="http://www.Urban-credit.com.tw/u1.html" REL="nofollow">字</A><A HREF="http://www.Urban-credit.com.tw/u2.html" REL="nofollow">與</A><A HREF="http://www.Urban-credit.com.tw/u3.html" REL="nofollow">音</A><A HREF="http://www.Urban-credit.com.tw/u4.html" REL="nofollow">符</A><A HREF="http://www.Urban-credit.com.tw/u5.html" REL="nofollow">才</A><A HREF="http://www.Urban-credit.com.tw/u6.html" REL="nofollow">能</A><A HREF="http://www.Urban-credit.com.tw/u7.html" REL="nofollow">像</A><A HREF="http://www.Urban-credit.com.tw/u8.html" REL="nofollow">清</A><A HREF="http://www.Urban-credit.com.tw/u9.html" REL="nofollow">泉</A><A HREF="http://www.Urban-credit.com.tw/u10.html" REL="nofollow">一</A><A HREF="http://www.Urban-credit.com.tw/u11.html" REL="nofollow">樣</A><A HREF="http://www.Urban-credit.com.tw/u12.html" REL="nofollow">注</A><A HREF="http://www.Urban-credit.com.tw/u13.html" REL="nofollow">入</A><A HREF="http://www.Urban-credit.com.tw/u14.html" REL="nofollow">你</A><A HREF="http://www.Urban-credit.com.tw/u15.html" REL="nofollow">的</A><A HREF="http://www.Urban-credit.com.tw/u16.html" REL="nofollow">心</A><A HREF="http://www.Urban-credit.com.tw/u17.html" REL="nofollow">靈</A><A HREF="http://www.Urban-credit.com.tw/u1.html" REL="nofollow">。</A><A HREF="http://www.Urban-credit.com.tw/club.html" REL="nofollow">好</A><A HREF="http://www.Urban-credit.com.tw/p11.html" REL="nofollow">好</A><A HREF="http://www.Urban-credit.com.tw/s1.html" REL="nofollow">愛</A><A HREF="http://www.Urban-credit.com.tw/s2.html" REL="nofollow">自</A><A HREF="http://www.Urban-credit.com.tw/s3.html" REL="nofollow">己</A><A HREF="http://www.Urban-credit.com.tw/s4.html" REL="nofollow">，</A><A HREF="http://www.Urban-credit.com.tw/s5.html" REL="nofollow">你</A><A HREF="http://www.Urban-credit.com.tw/s6.html" REL="nofollow">才</A><A HREF="http://www.Urban-credit.com.tw/s7.html" REL="nofollow">有</A><A HREF="http://www.Urban-credit.com.tw/s8.html" REL="nofollow">愛</A><A HREF="http://www.Urban-credit.com.tw/s9.html" REL="nofollow">人</A><A HREF="http://www.Urban-credit.com.tw/s10.html" REL="nofollow">的</A><A HREF="http://www.Urban-credit.com.tw/s11.html" REL="nofollow">能</A><A HREF="http://www.Urban-credit.com.tw/s12.html" REL="nofollow">力</A><A HREF="http://www.concubine.com.tw/u1.html" REL="nofollow">，</A><A HREF="http://www.concubine.com.tw/u2.html" REL="nofollow">也</A><A HREF="http://www.concubine.com.tw/u3.html" REL="nofollow">才</A><A HREF="http://www.concubine.com.tw/u4.html" REL="nofollow">有</A><A HREF="http://www.concubine.com.tw/u5.html" REL="nofollow">讓</A><A HREF="http://www.concubine.com.tw/u6.html" REL="nofollow">別</A><A HREF="http://www.concubine.com.tw/u7.html" REL="nofollow">人</A><A HREF="http://www.concubine.com.tw/u8.html" REL="nofollow">愛</A><A HREF="http://www.concubine.com.tw/u9.html" REL="nofollow">上</A><A HREF="http://www.concubine.com.tw/u10.html" REL="nofollow">你</A><A HREF="http://www.concubine.com.tw/u11.html" REL="nofollow">的</A><A HREF="http://www.concubine.com.tw/u12.html" REL="nofollow">魅</A><A HREF="http://www.concubine.com.tw/u13.html" REL="nofollow">力</A><A HREF="http://www.concubine.com.tw/u14.html" REL="nofollow">。</A><A HREF="http://www.concubine.com.tw/u15.html" REL="nofollow">而</A><A HREF="http://www.concubine.com.tw/u16.html" REL="nofollow">愛</A><A HREF="http://www.concubine.com.tw/u17.html" REL="nofollow">自</A><A HREF="http://www.concubine.com.tw/u18.html" REL="nofollow">己</A><A HREF="http://www.concubine.com.tw/u19.html" REL="nofollow">的</A><A HREF="http://www.concubine.com.tw/u20.html" REL="nofollow">第</A><A HREF="http://www.concubine.com.tw/a-1.html" REL="nofollow">一</A><A HREF="http://www.concubine.com.tw/a-2.html" REL="nofollow">步</A><A HREF="http://www.concubine.com.tw/a-3.html" REL="nofollow">，</A><A HREF="http://www.concubine.com.tw/a-4.html" REL="nofollow">就</A><A HREF="http://www.concubine.com.tw/a-5.html" REL="nofollow">是</A><A HREF="http://www.concubine.com.tw/a-6.html" REL="nofollow">切</A><A HREF="http://www.concubine.com.tw/b-1.html" REL="nofollow">斷</A><A HREF="http://www.concubine.com.tw/b-2.html" REL="nofollow">讓</A><A HREF="http://www.concubine.com.tw/b-3.html" REL="nofollow">自</A><A HREF="http://www.concubine.com.tw/b-4.html" REL="nofollow">己</A><A HREF="http://www.concubine.com.tw/b-5.html" REL="nofollow">覺</A><A HREF="http://www.concubine.com.tw/c-1.html" REL="nofollow">得</A><A HREF="http://www.concubine.com.tw/c-2.html" REL="nofollow">黏</A><A HREF="http://www.concubine.com.tw/e-1.html" REL="nofollow">膩</A><A HREF="http://www.concubine.com.tw/d-1.html" REL="nofollow">的</A><A HREF="http://www.concubine.com.tw/d-2.html" REL="nofollow">過</A><A HREF="http://www.concubine.com.tw/d-3.html" REL="nofollow">去</A><A HREF="http://www.concubine.com.tw/d-4.html" REL="nofollow">，</A><A HREF="http://www.concubine.com.tw/e-2.html" REL="nofollow">以</A><A HREF="http://www.concubine.com.tw/b-6.html" REL="nofollow">無</A><A HREF="http://www.concubine.com.tw/e-3.html" REL="nofollow">沾</A><A HREF="http://www.concubine.com.tw/f-1.html" REL="nofollow">無</A><A HREF="http://www.concubine.com.tw/f-2.html" REL="nofollow">滯</A><A HREF="http://www.concubine.com.tw/f-3.html" REL="nofollow">的</A><A HREF="http://www.joney.com.tw/b.html" REL="nofollow">輕</A><A HREF="http://www.joney.com.tw/c.html" REL="nofollow">快</A><A HREF="http://www.joney.com.tw/d.html" REL="nofollow">心</A><A HREF="http://www.joney.com.tw/e.html" REL="nofollow">情</A><A HREF="http://www.joney.com.tw/i.html" REL="nofollow">，</A><A HREF="http://www.joney.com.tw/i-2.html" REL="nofollow">大</A><A HREF="http://www.joney.com.tw/i-1.html" REL="nofollow">步</A><A HREF="http://www.joney.com.tw/p1-2.html" REL="nofollow">走</A><A HREF="http://www.joney.com.tw/p1-7.html" REL="nofollow">向</A><A HREF="http://www.joney.com.tw/p1-4.html" REL="nofollow">前</A><A HREF="http://www.joney.com.tw/zx.html" REL="nofollow">去</A><A HREF="http://www.joney.com.tw/p1-5.html" REL="nofollow">。</A><A HREF="http://www.joney.com.tw/y.html" REL="nofollow">愛</A><A HREF="http://www.joney.com.tw/j.html" REL="nofollow">自</A><A HREF="http://www.affair.com.tw/2.html" REL="nofollow">己</A><A HREF="http://www.affair.com.tw/4.html" REL="nofollow">的</A><A HREF="http://www.affair.com.tw/3.html" REL="nofollow">第</A><A HREF="http://www.affair.com.tw/m.html" REL="nofollow">二</A><A HREF="http://www.affair.com.tw/n.html" REL="nofollow">步</A><A HREF="http://www.affair.com.tw/q.html" REL="nofollow">，</A><A HREF="http://www.affair.com.tw/a.html" REL="nofollow">則</A><A HREF="http://www.affair.com.tw/b.html" REL="nofollow">是</A><A HREF="http://www.affair.com.tw/d.html" REL="nofollow">隨</A><A HREF="http://www.affair.com.tw/c.html" REL="nofollow">時</A><A HREF="http://www.affair.com.tw/e.html" REL="nofollow">保</A><A HREF="http://www.female-credit.com.tw/u1.html" REL="nofollow">持</A><A HREF="http://www.female-credit.com.tw/u2.html" REL="nofollow">孩</A><A HREF="http://www.female-credit.com.tw/u3.html" REL="nofollow">子</A><A HREF="http://www.female-credit.com.tw/u4.html" REL="nofollow">般</A><A HREF="http://www.female-credit.com.tw/u5.html" REL="nofollow">的</A><A HREF="http://www.female-credit.com.tw/u6.html" REL="nofollow">好</A><A HREF="http://www.female-credit.com.tw/u7.html" REL="nofollow">奇</A><A HREF="http://www.female-credit.com.tw/u8.html" REL="nofollow">，</A><A HREF="http://www.female-credit.com.tw/u9.html" REL="nofollow">願</A><A HREF="http://www.female-credit.com.tw/u10.html" REL="nofollow">意</A><A HREF="http://www.female-credit.com.tw/u11.html" REL="nofollow">接</A><A HREF="http://www.female-credit.com.tw/u12.html" REL="nofollow">受</A><A HREF="http://www.female-credit.com.tw/u13.html" REL="nofollow">未</A><A HREF="http://www.female-credit.com.tw/u14.html" REL="nofollow">知</A><A HREF="http://www.female-credit.com.tw/u15.html" REL="nofollow">的</A><A HREF="http://www.female-credit.com.tw/u16.html" REL="nofollow">指</A><A HREF="http://www.female-credit.com.tw/u17.html" REL="nofollow">引</A><A HREF="http://www.female-credit.com.tw/u18.html" REL="nofollow">；</A><A HREF="http://www.female-credit.com.tw/u19.html" REL="nofollow">也</A><A HREF="http://www.female-credit.com.tw/u20.html" REL="nofollow">隨</A><A HREF="http://www.female-credit.com.tw/1-p1.html" REL="nofollow">時</A><A HREF="http://www.female-credit.com.tw/1-p2.html" REL="nofollow">可</A><A HREF="http://www.female-credit.com.tw/1-p3.html" REL="nofollow">以</A><A HREF="http://www.female-credit.com.tw/1-p4.html" REL="nofollow">拋</A><A HREF="http://www.female-credit.com.tw/1-p5.html" REL="nofollow">卻</A><A HREF="http://www.female-credit.com.tw/1-p6.html" REL="nofollow">不</A><A HREF="http://www.female-credit.com.tw/1-p7.html" REL="nofollow">再</A><A HREF="http://www.female-credit.com.tw/1-p8.html" REL="nofollow">需</A><A HREF="http://www.female-credit.com.tw/2-p1.html" REL="nofollow">要</A><A HREF="http://www.female-credit.com.tw/2-p2.html" REL="nofollow">的</A><A HREF="http://www.female-credit.com.tw/2-p3.html" REL="nofollow">行</A><A HREF="http://www.female-credit.com.tw/2-p4.html" REL="nofollow">囊</A><A HREF="http://www.female-credit.com.tw/2-p5.html" REL="nofollow">，</A><A HREF="http://www.female-credit.com.tw/2-p6.html" REL="nofollow">一</A><A HREF="http://www.female-credit.com.tw/2-p7.html" REL="nofollow">路</A><A HREF="http://www.female-credit.com.tw/2-p8.html" REL="nofollow">雲</A><A HREF="http://www.female-credit.com.tw/3-p1.html" REL="nofollow">淡</A><A HREF="http://www.female-credit.com.tw/3-p2.html" REL="nofollow">風</A><A HREF="http://www.female-credit.com.tw/3-p3.html" REL="nofollow">輕</A><A HREF="http://www.female-credit.com.tw/3-p4.html" REL="nofollow">。</A><A HREF="http://www.female-credit.com.tw/3-p5.html" REL="nofollow">親</A><A HREF="http://www.female-credit.com.tw/3-p6.html" REL="nofollow">愛</A><A HREF="http://www.female-credit.com.tw/3-p7.html" REL="nofollow">的</A><A HREF="http://www.female-credit.com.tw/3-p8.html" REL="nofollow">，</A><A HREF="http://www.female-credit.com.tw/4-p1.html" REL="nofollow">你</A><A HREF="http://www.female-credit.com.tw/4-p2.html" REL="nofollow">是</A><A HREF="http://www.female-credit.com.tw/4-p3.html" REL="nofollow">天</A><A HREF="http://www.female-credit.com.tw/4-p4.html" REL="nofollow">地</A><A HREF="http://www.female-credit.com.tw/4-p5.html" REL="nofollow">之</A><A HREF="http://www.female-credit.com.tw/4-p6.html" REL="nofollow">間</A><A HREF="http://www.female-credit.com.tw/4-p7.html" REL="nofollow">獨</A><A HREF="http://www.female-credit.com.tw/4-p8.html" REL="nofollow">一</A><A HREF="http://www.female-credit.com.tw/view-one.html" REL="nofollow">無</A><A HREF="http://www.female-credit.com.tw/view-two.html" REL="nofollow">二</A><A HREF="http://www.female-credit.com.tw/view-three.html" REL="nofollow">的</A><A HREF="http://www.female-credit.com.tw/view-four.html" REL="nofollow">旅</A><A HREF="http://www.Urban-credit.com.tw/Urban/u1.html" REL="nofollow">人</A><A HREF="http://www.Urban-credit.com.tw/Urban/u2.html" REL="nofollow">，</A><A HREF="http://blog.sina.com.tw/shuqian" REL="nofollow">在</A><A HREF="http://www.Urban-credit.com.tw/Urban/u4.html" REL="nofollow">陽</A><A HREF="http://www.Urban-credit.com.tw/Urban/p1.html" REL="nofollow">光</A><A HREF="http://www.Urban-credit.com.tw/Urban/p4.html" REL="nofollow">與</A><A HREF="http://www.Urban-credit.com.tw/Urban/p6.html" REL="nofollow">月</A><A HREF="http://blog.yam.com/seostory" REL="nofollow">光</A><A HREF="http://www.shuqian-work.com" REL="nofollow">的</A><A HREF="www.female-top007.com/" REL="nofollow">交</A><A HREF="http://www.top1-007.com/" REL="nofollow">替</A><A HREF="http://www.taiwan-top007.com/" REL="nofollow">之</A><A HREF="http://www.Urban-credit.com.tw/Urban/u3.html" REL="nofollow">中瀟</A><A HREF="http://www.mega-007.com/" REL="nofollow">灑獨</A><A HREF="http://www.selina-007.com/" REL="nofollow">行。</A></p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#5130588412996299518" title="comment permalink">March 6, 2009 at 5:09 AM</a>
+	  <span class="item-control blog-admin pid-917539018"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=5130588412996299518" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+      <dt class="comment-poster" id="3259424878569643662"><a name="3259424878569643662"></a>
+        <span style="line-height:16px" class="comment-icon blogger-comment-icon"><img src="http://img2.blogblog.com/img/b16-rounded.gif" alt="Blogger" style="display:inline;" /></span>&nbsp;<a href="http://www.blogger.com/profile/14819103950873898101" rel="nofollow">adf</a> said...
+      </dt>
+      <dd class="comment-body">
+
+        <p><A HREF="http://www.colordesignsite.com" REL="nofollow">室內設計</A>,<A HREF="http://www.eight-space.com" REL="nofollow">室內設計</A>,<A HREF="http://www.da-interior.com" REL="nofollow">室內設計</A>,<A HREF="http://www.datum-space.com" REL="nofollow">裝潢</A>,<A HREF="http://www.durnli.com" REL="nofollow">室內設計</A>,<A HREF="http://www.uch-design.com" REL="nofollow">室內設計</A><A HREF="http://www.guanghuid.com" REL="nofollow">室內設計公司</A><BR/>,<A HREF="http://www.058.org.tw" REL="nofollow">搬家公司</A>,<A HREF="http://moves.seo-seo.com.tw" REL="nofollow">搬家公司</A>,<A HREF="http://www.168move.com.tw" REL="nofollow">台北搬家公司</A>,<A HREF="http://moves.a383.org" REL="nofollow">搬家公司</A>,<A HREF="http://www.hoyoungdesign.com" REL="nofollow">室內設計</A><BR/>這一家<A HREF="http://www.058house.com.tw" REL="nofollow">租屋網</A>免費刊登不用錢耶<BR/><A HREF="http://www.030.com.tw" REL="nofollow">搬家公司</A>,<A HREF="http://www.myseo.com.tw/fitness" REL="nofollow">健身</A>,<A HREF="http://tea.net.tw" REL="nofollow">茶葉</A><A HREF="http://av938.org" REL="nofollow">A片</A>,<A HREF="http://seo.030.com.tw" REL="nofollow">SEO</A>,<A HREF="http://seo-seo.com.tw" REL="nofollow">SEO</A>,<A HREF="http://seo.058.tw" REL="nofollow">SEO</A>,<A HREF="http://www.amainmotel.com" REL="nofollow">motel</A>,<A HREF="http://www.aloha-light.com" REL="nofollow">led手電筒</A>,<A HREF="http://www.shang-meng.com" REL="nofollow">棧板</A>,<A HREF="http://www.zhan-wang.com" REL="nofollow">二胎</A>,<A HREF="http://kaisheun.com/index.html" REL="nofollow">隔熱紙</A>,<A HREF="http://www.aloha-light.com/pr.htm" REL="nofollow">照明</A>,<A HREF="http://fitness.030.com.tw" REL="nofollow">健身</A>,<A HREF="http://a383.org" REL="nofollow">a383</A>,<A HREF="http://a383.acidsexy.com" REL="nofollow">a383</A>,,<A HREF="http://shop.058.tw" REL="nofollow">二手家具</A>,<A HREF="http://www.nature99.net" REL="nofollow">a383</A>,<A HREF="http://www.aloha-light.com/aloha-19.htm" REL="nofollow">胸章</A>,<A HREF="http://www.aloha-light.com/aloha-52.htm" REL="nofollow">車燈</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=81" REL="nofollow"><BR/>文山搬家</A>,<A HREF="http://www.love-flower-dream.com" REL="nofollow">兼職小姐</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=82" REL="nofollow">南港搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=83" REL="nofollow">大安區搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=84" REL="nofollow">松山搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=85" REL="nofollow">中山區搬家</A>,<A HREF="http://www.168move.com.tw/news_open.asp?id=67" REL="nofollow">八里搬家</A>,<BR/><A HREF="http://www.168move.com.tw/news_open.asp?id=68" REL="nofollow">五股搬家</A>,<BR/><A HREF="http://www.168move.com.tw/news_open.asp?id=69" REL="nofollow">泰山搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=86" REL="nofollow">大同區搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=87" REL="nofollow">中正區搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=88" REL="nofollow">士林搬家</A>,<A HREF="http://www.168move.com.tw/news_open.php?id=89" REL="nofollow">萬華搬家</A>,<BR><BR/><A HREF="http://www.030.com.tw/notes.asp" REL="nofollow">台北搬家公司</A>,<A HREF="http://www.168move.com.tw/news.php" REL="nofollow">台北搬家公司</A>,<A HREF="http://seo-591.com" REL="nofollow">客人</A>,<A HREF="http://sexclub88.com" REL="nofollow">情趣用品</A>,<A HREF="http://www.love5200.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.030.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.058.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.058.org.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.058.net.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex-toys.058.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.sexybaby.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.a383.org" REL="nofollow">情趣用品</A>,<A HREF="http://sex.seo-seo.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.058qk.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://sex.168move.com.tw" REL="nofollow">情趣用品</A>,<A HREF="http://www.aloha-light.com/aloha-40.htm" REL="nofollow">加油棒</A>,<A HREF="http://www.058.net.tw" REL="nofollow">台中搬家公司</A>,<A HREF="http://www.058.com.tw/city1.htm" REL="nofollow">台北市搬家公司</A>,<A HREF="http://www.058.com.tw/city2.htm" REL="nofollow">台北縣搬家公司</A><BR/><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=36" REL="nofollow"><BR/>台中美食</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=37" REL="nofollow"><BR/>台北美食</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=38" REL="nofollow"><BR/>新竹美食</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=39" REL="nofollow"><BR/>桃園美食</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=40" REL="nofollow"><BR/>台中美食小吃</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=41" REL="nofollow"><BR/>台中美食餐廳</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=42" REL="nofollow"><BR/>大台中美食網</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=43" REL="nofollow"><BR/>台北美食餐廳</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=44" REL="nofollow"><BR/>桃園美食餐廳</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=45" REL="nofollow">桃園美食網</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=48" REL="nofollow"><BR/>新竹美食網</A><BR/><A HREF="http://www.weekfun.com/news_view.php?Key=49" REL="nofollow"><BR/>新竹美食餐廳</A><BR/>　</p>
+      </dd>
+      <dd class="comment-timestamp"><a href="#3259424878569643662" title="comment permalink">March 14, 2009 at 1:07 AM</a>
+	  <span class="item-control blog-admin pid-9646266"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=7958140996781104565&postID=3259424878569643662" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+	  </dd>
+      
+    </dl>
+		<p class="comment-timestamp">
+
+    <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=7958140996781104565&postID=4535996064386591118">Post a Comment</a>
+    </p>
+    <p id="postfeeds">Subscribe to Post Comments [<a target="_blank" href="http://unqualified-reservations.blogspot.com/feeds/4535996064386591118/comments/default" type="application/atom+xml">Atom</a>]</p>
+    	    
+    
+
+
+		<p class="comment-timestamp">
+	<a href="http://unqualified-reservations.blogspot.com/">&lt;&lt; Home</a>
+    </p>
+    </div>
+
+
+
+  <!-- End #comments -->
+
+
+</div></div>
+<!-- End #main -->
+
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+<div id="sidebar"><div id="sidebar2">
+  
+  
+  <!-- Begin #profile-container -->
+
+   <div id="profile-container"><h2 class="sidebar-title">About Me</h2>
+<dl class="profile-datablock">
+<dd class="profile-data"><strong>Name:</strong> <a rel="author" href="http://www.blogger.com/profile/16472157249344139282"> Mencius Moldbug </a></dd>
+</dl>
+<p class="profile-textblock">Stubbornness and disrespect, programming languages and operating systems, obsessive epistemology and formalist propaganda, Austrian economics and contemporary verse</p>
+<p class="profile-link"><a rel="author" href="http://www.blogger.com/profile/16472157249344139282">View my complete profile</a></p></div>
+   
+  <!-- End #profile -->
+   
+
+  <h2 class="sidebar-title">Also</h2>
+    <ul id="links">
+      <li><a href="http://www.2blowhards.com">2Blowhards</a></li>
+      <li><a href="http://amnation.com/vfr">Auster</a></li>
+      <li><a href="http://buyukliman.blogspot.com/">Black Sea</a></li>
+      <li><a href="http://nihoncassandra.blogspot.com">Cassandra</a></li>
+      <li><a href="http://www.climateaudit.org">Climate Audit</a></li>
+      <li><a href="http://aliasclio.blogspot.com">Clio</a></li>
+      <li><a href="http://recycledknowledge.blogspot.com/">Cowan</a></li>
+      <li><a href="http://curmudgeonjoy.blogspot.com">Curmudgeon</a></li>
+      <li><a href="http://dennisdale.blogspot.com/">Dennis Dale</a></li>
+      <li><a href="http://www.detroitblog.org">Detroitblog</a></li>
+      <li><a href="http://acrossdifficultcountry.blogspot.com">Difficult Country</a></li>
+      <li><a href="http://discriminations.us">Discriminations</a></li>
+      <li><a href="http://www.idiocentrism.com">John Emerson</a></li>
+      <li><a href="http://fallbackbelmont.blogspot.com"/>Fernandez</a></li>
+      <li><a href="http://formerbeltwaywonk.wordpress.com"/>Former Beltway Wonk</a></li>
+      <li><a href="http://www.gnxp.com">GNXP</a></li>
+      <li><a href="http://www.paulgraham.com/index.html">Paul Graham</a></li>
+      <li><a href="http://www.halfsigma.com">Half Sigma</a></li>
+      <li><a href="http://www.godofthemachine.com/">Haspel</a></li>
+      <li><a href="http://fourthcheckraise.blogspot.com">Ilkka</a></li>
+      <li><a href="http://interfluidity.powerblogs.com/">Interfluidity</a></li>
+      <li><a href="http://evidenceanecdotal.blogspot.com">Kurp</a></li>
+      <li><a href="http://omniorthogonal.blogspot.com">M. Traven</a></li>
+      <li><a href="http://macro-man.blogspot.com">Macro Man</a></li>
+      <li><a href="http://mangans.blogspot.com">Mangan</a></li>
+      <li><a href="http://blog.mises.org/blog">Mises</a></li>
+      <li><a href="http://lutheransurrealism.blogspot.com/">Olson</a></li>
+      <li><a href="http://ctoysters.com/AM%20Market%20Column.htm">Plant</a></li>
+      <li><a href="http://mansizedtarget.wordpress.com">Roach</a></li>
+      <li><a href="http://vunex.blogspot.com/">Roth</a></li>
+      <li><a href="http://isteve.com">Sailer</a></li>
+      <li><a href="http://www.rgemonitor.com/blog/setser">Setser</a></li>
+      <li><a href="http://unenumerated.blogspot.com">Szabo</a></li>
+      <li><a href="http://entitledtoanopinion.wordpress.com">TGGP</a></li>
+      <li><a href="http://manwhoisthursday.blogspot.com/">Thursday</a></li>
+      <li><a href="http://www.udolpho.com">Udolpho</a></li>
+      <li><a href="http://www.davidwarrenonline.com">Warren</a></li>
+      <li><a href="http://www.ejectejecteject.com">Whittle</a></li>
+      <li><a href="http://www.stagepoetrycompany.typepad.com/">Williams</a></li>
+    </ul>
+
+  <h2 class="sidebar-title">Older</h2>
+    <ul id="recently">
+    
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/05/castes-of-united-states.html">Castes of the United States</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/05/two-kinds-of-repeaters.html">Two kinds of repeaters</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/05/genius-of-new-deal-design.html">The genius of the New Deal design</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/05/he-who-refuses-does-not-repent.html">He who refuses does not repent</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/05/what-if-theres-no-such-thing-as-chaotic.html">What if there&#39;s no such thing as chaotic good?</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/04/terminology-and-administrivia.html">Terminology and an open floor</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/04/journalistic-independence.html">Journalistic independence</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/04/jaroslav-haek-and-kernel-monitor-meme.html">Jaroslav Ha&scaron;ek and the kernel-monitor meme</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/04/my-new-comments-policy.html">My new comments policy</a></li>
+     
+        <li><a href="http://unqualified-reservations.blogspot.com/2007/04/essential-idea-of-leftism.html">The essential idea of leftism</a></li>
+     
+  </ul>
+    
+
+  <p id="blogfeeds">Subscribe to<br />Posts [<a target="_blank" href="http://unqualified-reservations.blogspot.com/feeds/posts/default" type="application/atom+xml">Atom</a>]</p>  
+
+  <!--
+  <p>This is a paragraph of text that could go in the sidebar.</p>
+  -->
+  
+
+
+</div></div>
+<!-- End #sidebar -->
+
+
+</div>
+<!-- End #content -->
+
+
+
+<!-- Begin #footer -->
+<div id="footer"><hr />
+  <p><!--This is an optional footer. If you want text here, place it inside these tags, and remove this comment. -->&nbsp;</p>
+
+</div>
+<!-- End #footer -->
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1828820-1";
+urchinTracker();
+</script>
+<script type="text/javascript" src="https://www.blogger.com/static/v1/common/js/4174905999-csitail.js"></script>
+<script type="text/javascript">BLOG_initCsi('classic_blogspot');</script></body>
+</html>
